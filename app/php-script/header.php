@@ -1,5 +1,5 @@
 <header class = "header" id = "header">
-    <div class="wrap">
+    <div class="wrap-header">
         <nav class="wrap-menu">
             <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
             <label for="menu" class="toggleMenu"><svg class="icon"></svg>Меню</label>

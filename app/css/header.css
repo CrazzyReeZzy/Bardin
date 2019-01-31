@@ -2,28 +2,28 @@
 .wrap-menu label {
   display: none; }
 
-.header .wrap .wrap-menu {
+.header .wrap-header .wrap-menu {
   background: #000;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2; }
-  .header .wrap .wrap-menu .icon {
+  .header .wrap-header .wrap-menu .icon {
     background: url(../img/icon/bars-solid.svg) no-repeat;
     width: 25px;
     height: 25px;
     outline: 0;
     border: none; }
-  .header .wrap .wrap-menu .menu {
+  .header .wrap-header .wrap-menu .menu {
     display: flex;
     justify-content: space-around;
     list-style-type: none; }
-    .header .wrap .wrap-menu .menu .menu__item {
+    .header .wrap-header .wrap-menu .menu .menu__item {
       text-decoration: none;
       text-transform: uppercase;
       color: #fff; }
-      .header .wrap .wrap-menu .menu .menu__item:hover {
+      .header .wrap-header .wrap-menu .menu .menu__item:hover {
         border-bottom: 1px solid #fff; }
 
 @media all and (max-width: 800px) {
