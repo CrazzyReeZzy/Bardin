@@ -12,7 +12,10 @@
             left: 0;
             z-index:  2 ;
             .icon{
-                background: url(../app/img/icon/times-solid.svg);
+                background: url(../img/icon/times-solid.svg)
+                no-repeat center center / cover;
+                width: 50px;
+                height: 50px;
             }
             .menu{
                 display: flex;
@@ -32,9 +35,11 @@
 @media all and (max-width: 800px) {
     .menu {
         padding: 0;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         width: 100%;
-        height: 350px;
+        height: 100%;
         margin: auto;
     }
      .wrap-menu{
@@ -45,5 +50,48 @@
       max-height: 0;
       transition: max-height 0.3s;
      }
+     .wrap-menu ul li a{
+        display: none;
+     }
+     .wrap-menu li>ul li ul{
+        position: absolute;
+        right: auto;
+        top: auto;
+    }
+    label.toggleMenu{
+        display: block;
+    }
+    .wrap-menu label.toggleMenu{
+        display: block;
+        color: #fff;
+    }
+    input.toggleMenu:checked + label.toggleMenu{
+        background: #000;
+        color: #fff;
+    }
+    input.toggleMenu:checked ~ .menu{
+        display: inline-grid;
+        position: relative;
+        max-height: 5000px;
+        transition: max-height 3s ease-in;
+        width: 100%;
+        z-index: 7;
+    }
+    input.toggleMenu:checked ~ .menu li{
+        float: left;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 15px;
+        height: 20px;
+    }
+    input.toggleMenu:checked ~ .menu li a{
+        display: flex;
+        text-align: right;
+        text-decoration: none;
+        //text-transform: uppercase;
+        font-size: 14px;
+    }
+    
      
 }
