@@ -2,7 +2,7 @@
     <div class="wrap">
         <nav class="wrap-menu">
             <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
-            <label for="menu" class="toggleMenu"><i class="icon"></i>Меню</label>
+            <label for="menu" class="toggleMenu"><svg class="icon"></svg>Меню</label>
             <ul class="menu">
                 <li><a  class="menu__item" href="index.php">Главная</a></li>
                 <li><a  class="menu__item" href="menu.php">Меню</a></li>

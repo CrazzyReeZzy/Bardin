@@ -12,10 +12,12 @@
             left: 0;
             z-index:  2 ;
             .icon{
-                background: url(../img/icon/times-solid.svg)
-                no-repeat center center / cover;
-                width: 50px;
-                height: 50px;
+                background: url(../img/icon/bars-solid.svg)
+                no-repeat;
+                width: 25px;
+                height: 25px;
+                outline: 0;
+                border: none;
             }
             .menu{
                 display: flex;
@@ -23,6 +25,7 @@
                 list-style-type: none;
                 .menu__item{
                     text-decoration: none;
+                    text-transform: uppercase;
                     color: #fff;
                     &:hover{
                         border-bottom: 1px solid #fff;
@@ -43,26 +46,21 @@
         margin: auto;
     }
      .wrap-menu{
-      overflow: hidden;
+        overflow: hidden;
      }
      .wrap-menu ul{
-      display: none;
-      max-height: 0;
-      transition: max-height 0.3s;
+        display: none;
+        max-height: 0;
+        transition: max-height 0.3s;
      }
      .wrap-menu ul li a{
         display: none;
      }
-     .wrap-menu li>ul li ul{
-        position: absolute;
-        right: auto;
-        top: auto;
-    }
-    label.toggleMenu{
-        display: block;
-    }
     .wrap-menu label.toggleMenu{
-        display: block;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        text-transform: uppercase;
         color: #fff;
     }
     input.toggleMenu:checked + label.toggleMenu{
@@ -73,7 +71,7 @@
         display: inline-grid;
         position: relative;
         max-height: 5000px;
-        transition: max-height 3s ease-in;
+        transition: max-height 2s ease-in;
         width: 100%;
         z-index: 7;
     }
@@ -89,7 +87,7 @@
         display: flex;
         text-align: right;
         text-decoration: none;
-        //text-transform: uppercase;
+        text-transform: uppercase;
         font-size: 14px;
     }
     

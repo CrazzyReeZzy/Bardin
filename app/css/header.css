@@ -10,15 +10,18 @@
   left: 0;
   z-index: 2; }
   .header .wrap .wrap-menu .icon {
-    background: url(../img/icon/times-solid.svg) no-repeat center center/cover;
-    width: 50px;
-    height: 50px; }
+    background: url(../img/icon/bars-solid.svg) no-repeat;
+    width: 25px;
+    height: 25px;
+    outline: 0;
+    border: none; }
   .header .wrap .wrap-menu .menu {
     display: flex;
     justify-content: space-around;
     list-style-type: none; }
     .header .wrap .wrap-menu .menu .menu__item {
       text-decoration: none;
+      text-transform: uppercase;
       color: #fff; }
       .header .wrap .wrap-menu .menu .menu__item:hover {
         border-bottom: 1px solid #fff; }
@@ -40,14 +43,11 @@
     transition: max-height 0.3s; }
   .wrap-menu ul li a {
     display: none; }
-  .wrap-menu li > ul li ul {
-    position: absolute;
-    right: auto;
-    top: auto; }
-  label.toggleMenu {
-    display: block; }
   .wrap-menu label.toggleMenu {
-    display: block;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
     color: #fff; }
   input.toggleMenu:checked + label.toggleMenu {
     background: #000;
@@ -56,7 +56,7 @@
     display: inline-grid;
     position: relative;
     max-height: 5000px;
-    transition: max-height 3s ease-in;
+    transition: max-height 2s ease-in;
     width: 100%;
     z-index: 7; }
   input.toggleMenu:checked ~ .menu li {
@@ -70,4 +70,5 @@
     display: flex;
     text-align: right;
     text-decoration: none;
+    text-transform: uppercase;
     font-size: 14px; } }
