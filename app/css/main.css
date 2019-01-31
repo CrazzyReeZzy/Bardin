@@ -46,3 +46,13 @@ body {
         height: 25px; }
       .offer .wrap-offer .phone p {
         margin-left: 15px; }
+
+.slider {
+  width: 80%;
+  margin: 0 auto; }
+  .slider .wrap-slider {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    .slider .wrap-slider div img {
+      width: 100%; }

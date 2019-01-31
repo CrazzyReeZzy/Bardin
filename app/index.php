@@ -47,10 +47,9 @@
     <!-- Слайдер !-->
     <section class = "slider">
         <div class="wrap-slider">
-            <div><img src="img/main/slider/slide_one.jpg" alt="Караоке бар - блюда"
-				style="height: 250px; width: 100%;"></div>
+            <div><img src="img/main/slider/slide_one.jpg" alt="Караоке бар - блюда"></div>
 			<div><img src="img/main/slider/slide_two.jpg"  alt="Караоке бар - алкоголь" ></div>
-			<div><img src="img/main/slider/slide_three.jpeg"  alt="Караоке бар - блюда" ></div>
+			<div><img src="img/main/slider/slide_three.jpg"  alt="Караоке бар - блюда" ></div>
 			<div><img src="img/main/slider/slide_four.jpg"  alt="Караоке бар - В Екатеренбурге" ></div>
 			<div><img src="img/main/slider/slide_five.jpg" alt="Караоке бар - В Екатеренбурге" ></div>
         </div>

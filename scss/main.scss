@@ -54,3 +54,15 @@ body{
         }
     }
 }
+.slider{
+    width: 80%;
+    margin: 0 auto;
+    .wrap-slider{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        div img {
+            width: 100%;
+        }
+    }
+}
