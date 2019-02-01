@@ -68,35 +68,81 @@
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/stock/icon2.png);"></span>
             <span class="card__content">
-                <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
+                <p>Скидка на бар 25% с воскресенья по четверг, кроме пива.</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/stock/icon3.png);"></span>
             <span class="card__content">
-                <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
+                <p>Скидка на кальян 25% с воскресенья по четверг.</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/stock/icon4.png);"></span>
             <span class="card__content">
-                <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
+                <p>При заказе 4 шотов ягермейстера пятый шот в подарок.</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/stock/icon5.png);"></span>
             <span class="card__content">
-                <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
+                <p>При заказе бутылки вина*, сырное ассорти в подарок.</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/stock/icon6.png);"></span>
             <span class="card__content">
-                <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
+                <p>При заказе бутылки водки*, селедочка с картофилем в подарок.</p>
+            </span>
+            </a>
+        </div>
+        <p style="text-align : center; margin-top: 50px;">*уточняйте подробности у официанта или пo тел. 213-40-20</p>
+    </section>
+    <!-- Специальные предложения !-->
+    <section class = "special-offers">
+        <h1>Специальные предложения</h1>
+        <p>Самые лучшие предложения для вас</p>
+        <div class="wrap-card">
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/special-offers/sp1.png);"></span>
+            <span class="card__content">
+                <p>Дни рождения</p>
+            </span>
+            </a>
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/special-offers/sp2.png);"></span>
+            <span class="card__content">
+                <p>Банкеты</p>
+            </span>
+            </a>
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/special-offers/sp3.png);"></span>
+            <span class="card__content">
+                <p>Мальчишники и Девишники</p>
+            </span>
+            </a>
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/special-offers/sp4.png);"></span>
+            <span class="card__content">
+                <p>Детские праздники</p>
+            </span>
+            </a>
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/special-offers/sp5.png);"></span>
+            <span class="card__content">
+                <p>Выпускные</p>
+            </span>
+            </a>
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/special-offers/sp6.png);"></span>
+            <span class="card__content">
+                <p>Новогодняя ночь</p>
             </span>
             </a>
         </div>
     </section>
+    <!-- Footer !-->
+    <?php require_once "php-script/footer.php";?>
 </body>
     <!--script !-->
     <script src="libs/jquery/jquery-1.11.2.min.js"></script>
