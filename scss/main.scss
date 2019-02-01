@@ -30,6 +30,7 @@ body{
             display: flex;
             justify-content:center;
             align-items: flex-end;
+            margin-left: 80px;
             .logo{
                 width: 128px;
                 height: 64px;
@@ -173,12 +174,7 @@ body{
 	            transition: transform .25s ease;
             }
             .card__content{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-	            text-align: center;
-                align-content: center;
+                display: grid;
                 font-size: 22px;
                 padding: 0px;
                 padding-top: 0px;

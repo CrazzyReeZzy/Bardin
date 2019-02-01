@@ -107,28 +107,28 @@
             <span class="card__img" style="background-image: url(img/main/special-offers/sp1.png);"></span>
             <span class="card__content">
                 <p>Дни рождения</p>
-                <p class = "content-preview">День рождения – долгожданный семейный праздник, который приносит множество приятных минут, из которых складываются лучшие воспоминания...</p>
+                <p class = "content-preview">День рождения – долгожданный семейный праздник, который приносит множество приятных минут,из которых складываются лучшие воспоминания...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/special-offers/sp2.png);"></span>
             <span class="card__content">
                 <p>Банкеты</p>
-                <p class = "content-preview">Если вы ищете место в Екатеринбурге для провидения корпоративов и банкетов, «БардIN» станет для вас настоящей находкой...</p>
+                <p class = "content-preview">Если вы ищете место в Екатеринбурге для провидения корпоративов и банкетов, «БардIN» станет для вас настоящей находкой.Найти идеальное место...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/special-offers/sp3.png);"></span>
             <span class="card__content">
                 <p>Мальчишники и Девишники</p>
-                <p class = "content-preview">Дети- цветы жизни и поэтому для них нужно все организовывать только на высшем уровне...</p>
+                <p class = "content-preview">Дети- цветы жизни и поэтому для них нужно все организовывать только на высшем уровне.Караоке бар «БардIN» организует, и с удовольствием...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/special-offers/sp4.png);"></span>
             <span class="card__content">
                 <p>Детские праздники</p>
-                <p class = "content-preview">Весёлый мальчишник и девичник – это отличная возможность немного расслабиться перед свадьбой и прекрасный повод собрать самых близких и отрывных ребят (девчонок) напоследок холостой жизни...</p>
+                <p class = "content-preview">Весёлый мальчишник и девичник – это отличная возможность немного расслабиться перед свадьбой и прекрасный повод собрать самых близких...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">

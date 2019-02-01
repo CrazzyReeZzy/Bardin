@@ -28,7 +28,8 @@ body {
     .offer .wrap-offer .wrap-logo {
       display: flex;
       justify-content: center;
-      align-items: flex-end; }
+      align-items: flex-end;
+      margin-left: 80px; }
       .offer .wrap-offer .wrap-logo .logo {
         width: 128px;
         height: 64px; }
@@ -145,12 +146,7 @@ body {
         -o-transition: transform .25s ease;
         transition: transform .25s ease; }
       .special-offers .wrap-card .wrap-card__card .card__content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        align-content: center;
+        display: grid;
         font-size: 22px;
         padding: 0px;
         padding-top: 0px;
