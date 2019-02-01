@@ -61,37 +61,37 @@
         <p class = "stock-titel">Самые лучшие предложения для вас</p>
         <div class="wrap-card">
             <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/stock/icon1.png);"></span>
+            <span class="card__img" style="background-image: url(img/main/stock/i1.jpg);"></span>
             <span class="card__content">
                 <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/stock/icon2.png);"></span>
+            <span class="card__img" style="background-image: url(img/main/stock/i2.jpg);"></span>
             <span class="card__content">
                 <p>Скидка на бар 25% с воскресенья по четверг, кроме пива.</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/stock/icon3.png);"></span>
+            <span class="card__img" style="background-image: url(img/main/stock/i3.jpeg);"></span>
             <span class="card__content">
                 <p>Скидка на кальян 25% с воскресенья по четверг.</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/stock/icon4.png);"></span>
+            <span class="card__img" style="background-image: url(img/main/stock/i4.jpg);"></span>
             <span class="card__content">
                 <p>При заказе 4 шотов ягермейстера пятый шот в подарок.</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/stock/icon5.png);"></span>
+            <span class="card__img" style="background-image: url(img/main/stock/i5.jpg);"></span>
             <span class="card__content">
                 <p>При заказе бутылки вина*, сырное ассорти в подарок.</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/stock/icon6.png);"></span>
+            <span class="card__img" style="background-image: url(img/main/stock/i6.jpg);"></span>
             <span class="card__content">
                 <p>При заказе бутылки водки*, селедочка с картофилем в подарок.</p>
             </span>
@@ -105,42 +105,42 @@
         <p class = "special-offers-titel">Самые лучшие предложения для вас</p>
         <div class="wrap-card">
             <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/special-offers/sp1.png);"></span>
+            <span class="card__img" style="background-image: url(img/main/special-offers/li1.jpg);"></span>
             <span class="card__content">
                 <p>Дни рождения</p>
                 <p class = "content-preview">День рождения – долгожданный семейный праздник, который приносит множество приятных минут,из которых складываются лучшие воспоминания...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/special-offers/sp2.png);"></span>
+            <span class="card__img" style="background-image: url(img/main/special-offers/li2.jpg);"></span>
             <span class="card__content">
                 <p>Банкеты</p>
                 <p class = "content-preview">Если вы ищете место в Екатеринбурге для провидения корпоративов и банкетов, «БардIN» станет для вас настоящей находкой.Найти идеальное место...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/special-offers/sp3.png);"></span>
+            <span class="card__img" style="background-image: url(img/main/special-offers/li3.jpg);"></span>
             <span class="card__content">
                 <p>Мальчишники и Девишники</p>
-                <p class = "content-preview">Дети- цветы жизни и поэтому для них нужно все организовывать только на высшем уровне.Караоке бар «БардIN» организует, и с удовольствием...</p>
-            </span>
-            </a>
-            <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/special-offers/sp4.png);"></span>
-            <span class="card__content">
-                <p>Детские праздники</p>
                 <p class = "content-preview">Весёлый мальчишник и девичник – это отличная возможность немного расслабиться перед свадьбой и прекрасный повод собрать самых близких...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/special-offers/sp5.png);"></span>
+            <span class="card__img" style="background-image: url(img/main/special-offers/li4.jpg);"></span>
+            <span class="card__content">
+                <p>Детские праздники</p>
+                <p class = "content-preview">Дети-цветы жизни и поэтому для них нужно все организовывать только на высшем уровне.Караоке бар «БардIN» организует, и с удовольствием...</p>
+            </span>
+            </a>
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/special-offers/li5.jpg);"></span>
             <span class="card__content">
                 <p>Выпускные</p>
                 <p class = "content-preview">Создание феерии праздника — дело тонкое. Именно те нюансы, которые на первый взгляд кажутся незначительными, делают банкет запоминающимся...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
-            <span class="card__img" style="background-image: url(img/main/special-offers/sp6.png);"></span>
+            <span class="card__img" style="background-image: url(img/main/special-offers/li6.jpg);"></span>
             <span class="card__content">
                 <p>Новогодняя ночь</p>
                 <p class = "content-preview">Создание феерии праздника — дело тонкое. Именно те нюансы, которые на первый взгляд кажутся незначительными, делают банкет запоминающимся... </p>
