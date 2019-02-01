@@ -57,7 +57,7 @@
     <!-- Акции !-->
     <section class = "stock">
         <h1>Акции</h1>
-        <p>Самые лучшие предложения для вас</p>
+        <p class = "stock-titel">Самые лучшие предложения для вас</p>
         <div class="wrap-card">
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/stock/icon1.png);"></span>
@@ -101,42 +101,48 @@
     <!-- Специальные предложения !-->
     <section class = "special-offers">
         <h1>Специальные предложения</h1>
-        <p>Самые лучшие предложения для вас</p>
+        <p class = "special-offers-titel">Самые лучшие предложения для вас</p>
         <div class="wrap-card">
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/special-offers/sp1.png);"></span>
             <span class="card__content">
                 <p>Дни рождения</p>
+                <p class = "content-preview">День рождения – долгожданный семейный праздник, который приносит множество приятных минут, из которых складываются лучшие воспоминания...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/special-offers/sp2.png);"></span>
             <span class="card__content">
                 <p>Банкеты</p>
+                <p class = "content-preview">Если вы ищете место в Екатеринбурге для провидения корпоративов и банкетов, «БардIN» станет для вас настоящей находкой...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/special-offers/sp3.png);"></span>
             <span class="card__content">
                 <p>Мальчишники и Девишники</p>
+                <p class = "content-preview">Дети- цветы жизни и поэтому для них нужно все организовывать только на высшем уровне...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/special-offers/sp4.png);"></span>
             <span class="card__content">
                 <p>Детские праздники</p>
+                <p class = "content-preview">Весёлый мальчишник и девичник – это отличная возможность немного расслабиться перед свадьбой и прекрасный повод собрать самых близких и отрывных ребят (девчонок) напоследок холостой жизни...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/special-offers/sp5.png);"></span>
             <span class="card__content">
                 <p>Выпускные</p>
+                <p class = "content-preview">Создание феерии праздника — дело тонкое. Именно те нюансы, которые на первый взгляд кажутся незначительными, делают банкет запоминающимся...</p>
             </span>
             </a>
             <a href="#" class = "wrap-card__card">
             <span class="card__img" style="background-image: url(img/main/special-offers/sp6.png);"></span>
             <span class="card__content">
                 <p>Новогодняя ночь</p>
+                <p class = "content-preview">Создание феерии праздника — дело тонкое. Именно те нюансы, которые на первый взгляд кажутся незначительными, делают банкет запоминающимся... </p>
             </span>
             </a>
         </div>

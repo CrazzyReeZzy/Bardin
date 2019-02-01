@@ -66,7 +66,8 @@ body {
     margin: 0 auto; }
   .stock p {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto; }
+  .stock .stock-titel {
     margin-bottom: 50px; }
   .stock .wrap-card {
     display: grid;
@@ -93,8 +94,12 @@ body {
         -o-transition: transform .25s ease;
         transition: transform .25s ease; }
       .stock .wrap-card .wrap-card__card .card__content {
-        display: grid;
-        padding: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
         text-align: center;
         align-content: center; }
       .stock .wrap-card .wrap-card__card:nth-child(5) {
@@ -112,7 +117,8 @@ body {
     margin: 0 auto; }
   .special-offers p {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto; }
+  .special-offers .special-offers-titel {
     margin-bottom: 50px; }
   .special-offers .wrap-card {
     display: grid;
@@ -139,8 +145,19 @@ body {
         -o-transition: transform .25s ease;
         transition: transform .25s ease; }
       .special-offers .wrap-card .wrap-card__card .card__content {
-        display: grid;
-        font-size: 20px;
-        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        align-content: center; }
+        align-content: center;
+        font-size: 22px;
+        padding: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+        font-weight: normal; }
+        .special-offers .wrap-card .wrap-card__card .card__content .content-preview {
+          margin-top: 10px;
+          font-size: 20px;
+          text-align: center;
+          font-weight: normal; }
