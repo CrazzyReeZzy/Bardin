@@ -54,6 +54,49 @@
 			<div><img src="img/main/slider/slide_five.jpg" alt="Караоке бар - В Екатеренбурге" ></div>
         </div>
     </section>
+    <!-- Акции !-->
+    <section class = "stock">
+        <h1>Акции</h1>
+        <p>Самые лучшие предложения для вас</p>
+        <div class="wrap-card">
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/stock/icon1.png);"></span>
+            <span class="card__content">
+                <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
+            </span>
+            </a>
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/stock/icon2.png);"></span>
+            <span class="card__content">
+                <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
+            </span>
+            </a>
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/stock/icon3.png);"></span>
+            <span class="card__content">
+                <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
+            </span>
+            </a>
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/stock/icon4.png);"></span>
+            <span class="card__content">
+                <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
+            </span>
+            </a>
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/stock/icon5.png);"></span>
+            <span class="card__content">
+                <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
+            </span>
+            </a>
+            <a href="#" class = "wrap-card__card">
+            <span class="card__img" style="background-image: url(img/main/stock/icon6.png);"></span>
+            <span class="card__content">
+                <p>Скидка 25% на меню кухни с воскресенья по вторник</p>
+            </span>
+            </a>
+        </div>
+    </section>
 </body>
     <!--script !-->
     <script src="libs/jquery/jquery-1.11.2.min.js"></script>
