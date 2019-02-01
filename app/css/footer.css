@@ -1,0 +1,11 @@
+.footer .wrap-footer {
+  width: 100%; }
+  .footer .wrap-footer .wrap-footer__line {
+    background: url(../img/main/footer/line.svg) no-repeat center top/cover;
+    width: 100%;
+    height: 100%;
+    z-index: 50; }
+  .footer .wrap-footer .contact-flex {
+    width: 80%;
+    display: flex;
+    justify-content: space-around; }

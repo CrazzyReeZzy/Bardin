@@ -147,13 +147,13 @@ body {
         transition: transform .25s ease; }
       .special-offers .wrap-card .wrap-card__card .card__content {
         display: grid;
-        font-size: 22px;
+        font-size: 18px;
         padding: 0px;
         padding-top: 0px;
         margin-top: 0px;
         font-weight: normal; }
         .special-offers .wrap-card .wrap-card__card .card__content .content-preview {
           margin-top: 10px;
-          font-size: 20px;
+          font-size: 14px;
           text-align: center;
           font-weight: normal; }
