@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="libs/slick/slick.css">
     <link rel="stylesheet" href="libs/slick/slick-theme.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/main-media.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
