@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bardin</title>
@@ -26,7 +26,7 @@
         <h1>Акции</h1>
         <div class = "wrap-main">
             <div href="#" class = "wrap-card">
-                <span class="card__img" style="background-image: url(../img/main/stock/i1.jpg);"></span>
+                <span class="card__img" style="background-image: url(../img/main/special-offers/li1.jpg);"></span>
                 <span class="card__content">
                     <p>Скидка 25% <br> На меню кухни с вс по вт.</p>
                     <p class = "content-text">
@@ -36,7 +36,17 @@
                 </span>
             </div>
             <div href="#" class = "wrap-card">
-                <span class="card__img" style="background-image: url(../img/main/stock/i2.jpg);"></span>
+                <span class="card__img" style="background-image: url(../img/main/special-offers/li2.jpg);"></span>
+                <span class="card__content">
+                    <p>Скидка 25% <br> На меню кухни с вс по вт.</p>
+                    <p class = "content-text">
+                    С воскресенья по вторник в нашем баре проходит замечательная акция! 
+                    Скидка 25% на все меню кухни. Наше меню достаточно разноообразно,
+                    вы сможете попробовать множество блюд, да еще и со скидкой в 25%.</p>
+                </span>
+            </div>
+            <div href="#" class = "wrap-card">
+                <span class="card__img" style="background-image: url(../img/main/special-offers/li3.jpg);"></span>
                 <span class="card__content">
                     <p>Скидка на бар 25% <br> с вс по чт, кроме пива.</p>
                     <p class = "content-text">
@@ -46,7 +56,7 @@
                 </span>
             </div>
             <div href="#" class = "wrap-card">
-                <span class="card__img" style="background-image: url(../img/main/stock/i3.jpeg);"></span>
+                <span class="card__img" style="background-image: url(../img/main/special-offers/li4.jpg);"></span>
                 <span class="card__content">
                     <p>Скидка на кальян 25% <br> с воскресенья по четверг.</p>
                     <p class = "content-text">
@@ -56,7 +66,7 @@
                 </span>
             </div>
             <div href="#" class = "wrap-card">
-                <span class="card__img" style="background-image: url(../img/main/stock/i4.jpg);"></span>
+                <span class="card__img" style="background-image: url(../img/main/special-offers/li5.jpg);"></span>
                 <span class="card__content">
                     <p>При заказе 4 шотов пятый шот в подарок.</p>
                     <p class = "content-text">
@@ -66,7 +76,7 @@
                 </span>
             </div>
             <div href="#" class = "wrap-card">
-                <span class="card__img" style="background-image: url(../img/main/stock/i5.jpg);"></span>
+                <span class="card__img" style="background-image: url(../img/main/special-offers/li6.jpg);"></span>
                 <span class="card__content">
                     <p>При заказе бутылки вина <br> сырное ассорти в подарок</p>
                     <p class = "content-text">
@@ -80,5 +90,6 @@
     </main>
     <!-- Footer !-->
     <?php require_once "../php-script/footer.php";?>
+    
 </body>
 </html>
