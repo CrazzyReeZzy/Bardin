@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/menu-media.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../libs/magnific-popup/magnific-popup.css">
 </head>
 <body>
     <!-- Подключаем меню !-->
@@ -37,7 +38,7 @@
             <div class="wrap-content">
                 <div class="wrap-bat0-grid">
                     <?php for ($i = 0; $i < count($files_kitchen); $i++) {?>
-                    <img src="<?=$dir_kitchen."/".$files_kitchen[$i]?>" alt="Меню страница 0">
+                        <img src="<?=$dir_kitchen."/".$files_kitchen[$i]?>" alt="Меню страница 0">
                     <?php } ?>
                 </div>
                 <div class="wrap-bat1-grid">
