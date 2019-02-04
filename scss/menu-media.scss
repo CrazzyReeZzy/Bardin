@@ -315,6 +315,7 @@
             margin: 0 auto;
             .wrap-button{
                 display: flex;
+                flex-direction: column;
                 align-items: center;
                 .btn{
                     margin-bottom: 20px;
@@ -334,8 +335,8 @@
                     grid-gap: 5px;
                     justify-content: center;
                     img {
-                        width: 480px;
-                        height: 800px;
+                        width: 380px;
+                        height: 700px;
                     }
                 }
                 .wrap-bat1-grid{
@@ -345,8 +346,8 @@
                     grid-gap: 5px;
                     justify-content: center;
                     img {
-                        width: 480px;
-                        height: 800px;
+                        width: 380px;
+                        height: 700px;
                     }
                 }
                 .wrap-bat2-grid{
@@ -356,7 +357,7 @@
                     grid-gap: 5px;
                     justify-content: center;
                     img {
-                        width: 480px;
+                        width: 380px;
                         height: 700px;
                     }
                 }
@@ -367,8 +368,8 @@
                     grid-gap: 5px;
                     justify-content: center;
                     img {
-                        width: 480px;
-                        height: 750px;
+                        width: 380px;
+                        height: 650px;
                     }
                 }
                 .wrap-bat4-grid{
@@ -378,8 +379,8 @@
                     grid-gap: 5px;
                     justify-content: center;
                     img {
-                        width: 480px;
-                        height: 691px;
+                        width: 380px;
+                        height: 591px;
                     }
                 }
             }
