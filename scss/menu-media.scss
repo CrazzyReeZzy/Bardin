@@ -312,9 +312,9 @@
             display: grid;
             grid-template-rows: 2;
             grid-template-columns: initial;
+            margin: 0 auto;
             .wrap-button{
                 display: flex;
-                //flex-direction: column;
                 align-items: center;
                 .btn{
                     margin-bottom: 20px;
@@ -334,47 +334,51 @@
                     grid-gap: 5px;
                     justify-content: center;
                     img {
-                        width: 400px;
+                        width: 480px;
                         height: 800px;
                     }
                 }
                 .wrap-bat1-grid{
+                    grid-row: 2;
                     display: none;
                     grid-template-columns: 1fr;
                     grid-gap: 5px;
                     justify-content: center;
                     img {
-                        width: 400px;
+                        width: 480px;
                         height: 800px;
                     }
                 }
                 .wrap-bat2-grid{
+                    grid-row: 2;
                     display: none;
                     grid-template-columns: 1fr;
                     grid-gap: 5px;
                     justify-content: center;
                     img {
-                        width: 300px;
+                        width: 480px;
                         height: 700px;
                     }
                 }
                 .wrap-bat3-grid{
+                    grid-row: 2;
                     display: none;
                     grid-template-columns: 1fr;
                     grid-gap: 5px;
                     justify-content: center;
                     img {
-                        width: 500px;
+                        width: 480px;
                         height: 750px;
                     }
                 }
                 .wrap-bat4-grid{
+                    grid-row: 2;
                     display: none;
                     grid-template-columns: 1fr;
                     grid-gap: 5px;
                     justify-content: center;
                     img {
-                        width: 496px;
+                        width: 480px;
                         height: 691px;
                     }
                 }
