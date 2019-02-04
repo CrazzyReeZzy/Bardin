@@ -36,31 +36,36 @@ body {
       background: #000 url(../img/menu/button/bat_4.jpg) no-repeat center center/cover; }
   .main .wrap-main .wrap-content .wrap-bat0-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px; }
     .main .wrap-main .wrap-content .wrap-bat0-grid img {
       width: 400px;
       height: 800px; }
   .main .wrap-main .wrap-content .wrap-bat1-grid {
     display: none;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px; }
     .main .wrap-main .wrap-content .wrap-bat1-grid img {
       width: 400px;
       height: 800px; }
   .main .wrap-main .wrap-content .wrap-bat2-grid {
     display: none;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px; }
     .main .wrap-main .wrap-content .wrap-bat2-grid img {
       width: 400px;
       height: 800px; }
   .main .wrap-main .wrap-content .wrap-bat3-grid {
     display: none;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px; }
     .main .wrap-main .wrap-content .wrap-bat3-grid img {
-      width: 400px;
-      height: 800px; }
+      width: 500px;
+      height: 750px; }
   .main .wrap-main .wrap-content .wrap-bat4-grid {
     display: none;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px; }
     .main .wrap-main .wrap-content .wrap-bat4-grid img {
-      width: 400px;
-      height: 800px; }
+      width: 620px;
+      height: 864px; }

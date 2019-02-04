@@ -46,6 +46,7 @@ body{
             .wrap-bat0-grid{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
+                grid-gap: 5px;
                 img {
                     width: 400px;
                     height: 800px;
@@ -54,6 +55,7 @@ body{
             .wrap-bat1-grid{
                 display: none;
                 grid-template-columns: 1fr 1fr;
+                grid-gap: 5px;
                 img {
                     width: 400px;
                     height: 800px;
@@ -62,6 +64,7 @@ body{
             .wrap-bat2-grid{
                 display: none;
                 grid-template-columns: 1fr 1fr;
+                grid-gap: 5px;
                 img {
                     width: 400px;
                     height: 800px;
@@ -70,17 +73,19 @@ body{
             .wrap-bat3-grid{
                 display: none;
                 grid-template-columns: 1fr 1fr;
+                grid-gap: 5px;
                 img {
-                    width: 400px;
-                    height: 800px;
+                    width: 500px;
+                    height: 750px;
                 }
             }
             .wrap-bat4-grid{
                 display: none;
                 grid-template-columns: 1fr 1fr;
+                grid-gap: 5px;
                 img {
-                    width: 400px;
-                    height: 800px;
+                    width: 620px;
+                    height: 864px;
                 }
             }
         }
