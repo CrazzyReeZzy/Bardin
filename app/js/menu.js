@@ -1,0 +1,35 @@
+$('button.bat0').click(function(e){
+    $('.wrap-bat0-grid').css('display','grid')
+    $('.wrap-bat1-grid').css('display','none')
+    $('.wrap-bat2-grid').css('display','none')
+    $('.wrap-bat3-grid').css('display','none')
+    $('.wrap-bat4-grid').css('display','none')
+});
+$('button.bat1').click(function(e){
+    $('.wrap-bat0-grid').css('display','none')
+    $('.wrap-bat1-grid').css('display','grid')
+    $('.wrap-bat2-grid').css('display','none')
+    $('.wrap-bat3-grid').css('display','none')
+    $('.wrap-bat4-grid').css('display','none')
+});
+$('button.bat2').click(function(e){
+    $('.wrap-bat0-grid').css('display','none')
+    $('.wrap-bat1-grid').css('display','none')
+    $('.wrap-bat2-grid').css('display','grid')
+    $('.wrap-bat3-grid').css('display','none')
+    $('.wrap-bat4-grid').css('display','none')
+});
+$('button.bat3').click(function(e){
+    $('.wrap-bat0-grid').css('display','none')
+    $('.wrap-bat1-grid').css('display','none')
+    $('.wrap-bat2-grid').css('display','none')
+    $('.wrap-bat3-grid').css('display','grid')
+    $('.wrap-bat4-grid').css('display','none')
+});
+$('button.bat4').click(function(e){
+    $('.wrap-bat0-grid').css('display','none')
+    $('.wrap-bat1-grid').css('display','none')
+    $('.wrap-bat2-grid').css('display','none')
+    $('.wrap-bat3-grid').css('display','none')
+    $('.wrap-bat4-grid').css('display','grid')
+});
