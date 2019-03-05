@@ -2,35 +2,36 @@
 .wrap-menu label {
   display: none; }
 
-.header {
+.header-menu {
   font-family: Courier New, sans-serif;
-  font-size: 14px; }
-  .header .wrap-header .wrap-menu {
+  font-size: 14px;
+  margin: 0px 0px 0px 0px; }
+  .header-menu .wrap-header .wrap-menu {
     background: #000;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 2; }
-    .header .wrap-header .wrap-menu .icon {
+    .header-menu .wrap-header .wrap-menu .icon {
       background: url(../img/icon/bars-solid.svg) no-repeat;
       width: 25px;
       height: 25px;
       outline: 0;
       border: none; }
-    .header .wrap-header .wrap-menu .menu {
+    .header-menu .wrap-header .wrap-menu .menu {
       display: flex;
       justify-content: space-around;
       list-style-type: none; }
-      .header .wrap-header .wrap-menu .menu .menu__item {
+      .header-menu .wrap-header .wrap-menu .menu .menu__item {
         text-decoration: none;
         text-transform: uppercase;
         color: #fff; }
-        .header .wrap-header .wrap-menu .menu .menu__item:hover {
+        .header-menu .wrap-header .wrap-menu .menu .menu__item:hover {
           border-bottom: 1px solid #fff; }
 
 @media all and (max-width: 800px) {
-  .header {
+  .header-menu {
     font-size: 14px; }
   .menu {
     padding: 0;

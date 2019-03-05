@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    <section class = "fist-bg">
+    <header class = "header" id = "header">
         <!-- Подключаем меню !-->
         <?php require_once "php-script/header.php";?>
         <!-- Первая строка social,logo,phone !-->
@@ -46,6 +46,8 @@
                 </div>
             </div>
         </section>
+        <!-- УТП !-->
+        
         <!-- Слайдер !-->
         <section class = "slider">
             <div class="wrap-slider">
@@ -56,7 +58,7 @@
 			    <div><img src="img/main/slider/slide_five.jpg" alt="Караоке бар - В Екатеренбурге" ></div>
             </div>
         </section>
-    </section>
+    </header>
     <!-- Акции !-->
     <section class = "stock">
         <h1>Акции</h1>

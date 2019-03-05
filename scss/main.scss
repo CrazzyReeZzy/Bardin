@@ -1,15 +1,16 @@
 body{
     font-family: Courier New, sans-serif;
     font-size: 14px;
-    //background: #000 url('../img/main/fon-bg.jpg') center top / cover;
     color: #fff;
 }
-.first-bg{
-    background: #000 url('../img/main/lamp.jpg') center top no-repeat / cover;
+.header{
+    background:url('../img/main/lamp.jpg') top center no-repeat / cover;
+    height: 100vh;
 }
 .offer{
-    margin-top: 50px;
+    margin-top: 25px;
     .wrap-offer{
+        padding-top: 50px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -35,8 +36,8 @@ body{
             align-items: flex-end;
             margin-left: 80px;
             .logo{
-                width: 128px;
-                height: 64px;
+                width: 256px;
+                height: 128px;
             }
             picture source.logo-sl{
                 width: 100%;
@@ -59,9 +60,9 @@ body{
     }
 }
 .slider{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 40px;
+    width: 100%;
+    margin: auto auto;
+    //margin-top: 140px;
     .wrap-slider{
         display: flex;
         justify-content: center;

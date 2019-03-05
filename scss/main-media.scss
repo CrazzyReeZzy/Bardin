@@ -1,9 +1,9 @@
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
     .slider{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
-        margin-top: 40px;
+        //margin-top: 140px;
         .wrap-slider{
             display: flex;
             justify-content: center;
@@ -20,7 +20,7 @@
     .slider{
         width: 80%;
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 140px;
         .wrap-slider{
             display: flex;
             justify-content: center;
@@ -56,7 +56,7 @@
         }
     }
     .slider{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         margin-top: 40px;
         .wrap-slider{
@@ -102,7 +102,7 @@
         }
     }
     .slider{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         margin-top: 40px;
         .wrap-slider{
@@ -184,7 +184,7 @@
     }
     .slider{
         display: none;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         margin-top: 40px;
         .wrap-slider{

@@ -2,9 +2,10 @@
 .wrap-menu label{
  display: none;
 }
-.header {
+.header-menu {
     font-family: Courier New, sans-serif;
     font-size: 14px;
+    margin: 0px 0px 0px 0px;
     .wrap-header {
 
         .wrap-menu{
@@ -13,7 +14,7 @@
             position: fixed;
             top: 0;
             left: 0;
-            z-index:  2 ;
+            z-index: 2;
             .icon{
                 background: url(../img/icon/bars-solid.svg)
                 no-repeat;
@@ -39,7 +40,7 @@
     }
 }
 @media all and (max-width: 800px) {
-    .header{
+    .header-menu{
         font-size: 14px;
     }
     .menu {

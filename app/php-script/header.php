@@ -1,4 +1,4 @@
-<header class = "header" id = "header">
+<menu class = "header-menu" id = "header-menu">
     <div class="wrap-header">
         <nav class="wrap-menu">
             <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
@@ -13,4 +13,4 @@
             </ul>
         </nav>
     </div>
-</header>
+</menu>

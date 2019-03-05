@@ -3,12 +3,14 @@ body {
   font-size: 14px;
   color: #fff; }
 
-.first-bg {
-  background: #000 url("../img/main/lamp.jpg") center top no-repeat/cover; }
+.header {
+  background: url("../img/main/lamp.jpg") top center no-repeat/cover;
+  height: 100vh; }
 
 .offer {
-  margin-top: 50px; }
+  margin-top: 25px; }
   .offer .wrap-offer {
+    padding-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center; }
@@ -33,8 +35,8 @@ body {
       align-items: flex-end;
       margin-left: 80px; }
       .offer .wrap-offer .wrap-logo .logo {
-        width: 128px;
-        height: 64px; }
+        width: 256px;
+        height: 128px; }
       .offer .wrap-offer .wrap-logo picture source.logo-sl {
         width: 100%;
         height: 100%; }
@@ -51,9 +53,8 @@ body {
         margin-left: 15px; }
 
 .slider {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 40px; }
+  width: 100%;
+  margin: auto auto; }
   .slider .wrap-slider {
     display: flex;
     justify-content: center;
