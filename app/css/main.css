@@ -1,8 +1,10 @@
 body {
   font-family: Courier New, sans-serif;
   font-size: 14px;
-  background: #000 url("../img/main/fon-bg.jpg") center top/cover;
   color: #fff; }
+
+.first-bg {
+  background: #000 url("../img/main/lamp.jpg") center top no-repeat/cover; }
 
 .offer {
   margin-top: 50px; }
