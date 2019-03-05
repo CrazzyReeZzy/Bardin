@@ -1,16 +1,19 @@
 body {
   font-family: Courier New, sans-serif;
   font-size: 14px;
-  color: #fff; }
+  color: #000; }
 
 .header {
   background: url("../img/main/lamp.jpg") top center no-repeat/cover;
   height: 100vh; }
 
 .utp {
-  text-align: center; }
+  text-align: center;
+  font-size: 22px;
+  color: #fff; }
 
 .offer {
+  color: #fff;
   margin-top: 25px; }
   .offer .wrap-offer {
     padding-top: 50px;
@@ -65,6 +68,28 @@ body {
     align-content: center; }
     .slider .wrap-slider div img {
       width: 100%; }
+
+.about {
+  margin-top: 150px; }
+  .about .wrap-about {
+    width: 90%;
+    margin: 0 auto; }
+    .about .wrap-about h2 {
+      color: #000;
+      font-size: 50px;
+      font-weight: normal;
+      text-align: center; }
+    .about .wrap-about .content-about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px; }
+      .about .wrap-about .content-about-grid .text-content-about {
+        color: #000;
+        font-size: 20px; }
+      .about .wrap-about .content-about-grid .pic-content-about {
+        background: url(../img/main/about/bar.jpg) center center no-repeat/cover;
+        width: 100%;
+        height: 100%; }
 
 .stock {
   width: 70%;

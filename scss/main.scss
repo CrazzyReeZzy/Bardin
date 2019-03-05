@@ -1,7 +1,7 @@
 body{
     font-family: Courier New, sans-serif;
     font-size: 14px;
-    color: #fff;
+    color: #000;
 }
 .header{
     background:url('../img/main/lamp.jpg') top center no-repeat / cover;
@@ -9,8 +9,11 @@ body{
 }
 .utp{
     text-align: center;
+    font-size: 22px;
+    color: #fff;
 }
 .offer{
+    color: #fff;
     margin-top: 25px;
     .wrap-offer{
         padding-top: 50px;
@@ -72,6 +75,33 @@ body{
         align-content: center;
         div img {
             width: 100%;
+        }
+    }
+}
+.about{
+    margin-top: 150px;
+    .wrap-about{
+        width: 90%;
+        margin: 0 auto;
+        h2{
+            color: #000;
+            font-size: 50px;
+            font-weight: normal;
+            text-align: center;
+        }
+        .content-about-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 20px;
+            .text-content-about{
+                color: #000;
+                font-size: 20px;
+            }
+            .pic-content-about{
+                background: url(../img/main/about/bar.jpg) center center no-repeat / cover;
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 }
