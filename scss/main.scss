@@ -7,6 +7,9 @@ body{
     background:url('../img/main/lamp.jpg') top center no-repeat / cover;
     height: 100vh;
 }
+.utp{
+    text-align: center;
+}
 .offer{
     margin-top: 25px;
     .wrap-offer{
@@ -61,8 +64,8 @@ body{
 }
 .slider{
     width: 100%;
-    margin: auto auto;
-    //margin-top: 140px;
+    margin: 0 auto;
+    margin-top: 140px;
     .wrap-slider{
         display: flex;
         justify-content: center;

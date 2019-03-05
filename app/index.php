@@ -47,7 +47,9 @@
             </div>
         </section>
         <!-- УТП !-->
-        
+        <section class = "utp">
+            <h1>Караоке бар в Екатеренбурге</h1>
+        </section>
         <!-- Слайдер !-->
         <section class = "slider">
             <div class="wrap-slider">
