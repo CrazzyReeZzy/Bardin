@@ -45,10 +45,6 @@
   .offer .wrap-offer .wrap-logo .logo {
     width: 150px;
     height: 150px; }
-  .stock .wrap-card {
-    grid-template-columns: 1fr 1fr 1fr; }
-  .special-offers .wrap-card {
-    grid-template-columns: 1fr 1fr; }
   .slider {
     width: 100%;
     margin: 0 auto;
@@ -117,19 +113,7 @@
       justify-content: center;
       align-content: center; }
       .slider .wrap-slider div img {
-        width: 100%; }
-  .stock {
-    width: 70%; }
-    .stock .wrap-card {
-      grid-gap: 10px;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto; }
-      .stock .wrap-card .wrap-card__card:nth-child(5) {
-        grid-column: initial; }
-      .stock .wrap-card .wrap-card__card:nth-child(6) {
-        grid-column: initial; }
-  .special-offers .wrap-card {
-    grid-template-columns: 1fr 1fr; } }
+        width: 100%; } }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
@@ -188,18 +172,6 @@
       justify-content: center;
       align-content: center; }
       .slider .wrap-slider div img {
-        width: 100%; }
-  .stock {
-    width: 70%; }
-    .stock .wrap-card {
-      grid-gap: 10px;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto; }
-      .stock .wrap-card .wrap-card__card:nth-child(5) {
-        grid-column: initial; }
-      .stock .wrap-card .wrap-card__card:nth-child(6) {
-        grid-column: initial; }
-  .special-offers .wrap-card {
-    grid-template-columns: 1fr; } }
+        width: 100%; } }
 
 /* Iphone 5 */

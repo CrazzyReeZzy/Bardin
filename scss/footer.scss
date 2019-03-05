@@ -1,4 +1,5 @@
 .footer {
+    background-color: #000;
     margin-top: 50px;
     .wrap-footer{
         width: 100%;
@@ -9,6 +10,7 @@
             z-index: 10;
         }
         .contact-flex{
+            color: #fff;
             width: 80%;
             display: flex;
             margin: 0 auto;

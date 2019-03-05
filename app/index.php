@@ -88,6 +88,19 @@
         </div>
     </section>
     <!-- Акции !-->
+    <section class = "stock">
+        <div class="wrap-stock-grid">
+            <div class="stock-item-grid" style="background-image: url(img/1.jpg)"><span>Cooll Glasses</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/2.jpg)"><span>Cooll MacBook</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/3.jpg)"><span>Cooll iMac</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/4.jpg)"><span>Cooll Hacking</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/5.jpg)"><span>Cooll Bull Shit</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/6.jpg)"><span>Cooll WorkSpace</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/7.jpg)"><span>Cooll NoteBook</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/8.jpg)"><span>Cooll Code</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/9.jpg)"><span>Cooll Timer</span></div>
+        </div>
+    </section>
     <!-- Специальные предложения !-->
     <!-- Footer !-->
     <?php require_once "php-script/footer.php";?>

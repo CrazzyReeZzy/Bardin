@@ -81,16 +81,6 @@
             }
         }
     }
-    .stock{
-        .wrap-card{
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-    }
-    .special-offers{
-        .wrap-card{
-            grid-template-columns: 1fr 1fr;
-        }
-    }
     .slider{
         width: 100%;
         margin: 0 auto;
@@ -186,27 +176,6 @@
             }
         }
     }
-    .stock{
-        width: 70%;
-        .wrap-card{
-            grid-gap: 10px;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: auto;
-            .wrap-card__card{
-                &:nth-child(5){
-                    grid-column: initial;
-                }
-                &:nth-child(6){
-                    grid-column: initial;
-                }
-            }
-        }
-    }
-    .special-offers{
-        .wrap-card{
-            grid-template-columns: 1fr 1fr;
-        }
-    }
 
 }
 
@@ -282,33 +251,11 @@
         margin: 0 auto;
         margin-top: 40px;
         .wrap-slider{
-            //display: none;
             justify-content: center;
             align-content: center;
             div img {
                 width: 100%;
             }
-        }
-    }
-    .stock{
-        width: 70%;
-        .wrap-card{
-            grid-gap: 10px;
-            grid-template-columns: 1fr;
-            grid-template-rows: auto;
-            .wrap-card__card{
-                &:nth-child(5){
-                    grid-column: initial;
-                }
-                &:nth-child(6){
-                    grid-column: initial;
-                }
-            }
-        }
-    }
-    .special-offers{
-        .wrap-card{
-            grid-template-columns: 1fr;
         }
     }
 }
