@@ -117,10 +117,14 @@ body {
       position: relative;
       transition: color .5s ease;
       cursor: pointer; }
+      .stock .wrap-stock-grid .stock-item-grid .back {
+        display: none; }
       .stock .wrap-stock-grid .stock-item-grid:hover {
         color: #fff; }
       .stock .wrap-stock-grid .stock-item-grid:hover span.front {
         display: none; }
+      .stock .wrap-stock-grid .stock-item-grid:hover span.back {
+        display: block; }
       .stock .wrap-stock-grid .stock-item-grid:before {
         content: '';
         position: absolute;
@@ -148,3 +152,45 @@ body {
     .events .wrap-events .wrap-events-item .events-item {
       margin-top: 50px;
       text-align: left; }
+
+.party {
+  margin-top: 150px; }
+  .party h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 50px; }
+  .party .wrap-party-grid {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .party .wrap-party-grid .party-item {
+      border-top: 0.5px solid #5f5f5f;
+      border-bottom: 0.5px solid #5f5f5f;
+      border-left: 0.5px solid #5f5f5f;
+      border-right: 0.5px solid #5f5f5f;
+      padding: 10px 50px; }
+
+.go-to-menu {
+  width: 90%;
+  margin: 150px auto;
+  text-align: center; }
+  .go-to-menu a {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none; }
+    .go-to-menu a:hover {
+      animation: move-btn 2s ease 0s infinite alternate none; }
+
+@keyframes move-btn {
+  from {
+    padding: 15px 25px; }
+  30% {
+    padding: 20px 35px; }
+  50% {
+    padding: 25px 45px; }
+  80% {
+    padding: 20px 35px; }
+  to {
+    padding: 15px 25px; } }
