@@ -30,6 +30,34 @@
             }
         }
     }
+    .about{
+        margin-top: 150px;
+        .wrap-about{
+            width: 90%;
+            margin: 0 auto;
+            h2{
+                color: #000;
+                font-size: 50px;
+                font-weight: normal;
+                text-align: center;
+            }
+            .content-about-grid{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 2fr;
+                grid-column-gap: 20px;
+                .text-content-about{
+                    color: #000;
+                    font-size: 20px;
+                }
+                .pic-content-about{
+                    background: url(../img/main/about/bar.jpg) center center no-repeat / cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
 }
 
 /* Portrait tablets and small desktops */
@@ -48,13 +76,41 @@
     .slider{
         width: 100%;
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 140px;
         .wrap-slider{
             display: flex;
             justify-content: center;
             align-content: center;
             div img {
                 width: 100%;
+            }
+        }
+    }
+    .about{
+        margin-top: 150px;
+        .wrap-about{
+            width: 90%;
+            margin: 0 auto;
+            h2{
+                color: #000;
+                font-size: 50px;
+                font-weight: normal;
+                text-align: center;
+            }
+            .content-about-grid{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 2fr;
+                grid-column-gap: 20px;
+                .text-content-about{
+                    color: #000;
+                    font-size: 20px;
+                }
+                .pic-content-about{
+                    background: url(../img/main/about/bar.jpg) center center no-repeat / cover;
+                    width: 100%;
+                    height: 100%;
+                }
             }
         }
     }
@@ -84,13 +140,39 @@
     .slider{
         width: 100%;
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 140px;
         .wrap-slider{
             display: flex;
             justify-content: center;
             align-content: center;
             div img {
                 width: 100%;
+            }
+        }
+    }
+    .about{
+        margin-top: 150px;
+        .wrap-about{
+            width: 90%;
+            margin: 0 auto;
+            h2{
+                color: #000;
+                font-size: 50px;
+                font-weight: normal;
+                text-align: center;
+            }
+            .content-about-grid{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-column-gap: 20px;
+                .text-content-about{
+                    color: #000;
+                    font-size: 20px;
+                }
+                .pic-content-about{
+                    background: url(../img/main/about/bar.jpg) center center no-repeat / contain;
+                }
             }
         }
     }
@@ -162,17 +244,46 @@
             }
         }
     }
+    .utp{
+        font-size: 15px;
+    }
     .slider{
         display: none;
         width: 100%;
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 140px;
         .wrap-slider{
             //display: none;
             justify-content: center;
             align-content: center;
             div img {
                 width: 100%;
+            }
+        }
+    }
+    .about{
+        margin-top: 50px;
+        .wrap-about{
+            width: 90%;
+            margin: 0 auto;
+            h2{
+                color: #000;
+                font-size: 50px;
+                font-weight: normal;
+                text-align: center;
+            }
+            .content-about-grid{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-column-gap: 20px;
+                .text-content-about{
+                    color: #000;
+                    font-size: 15px;
+                }
+                .pic-content-about{
+                    background: url(../img/main/about/bar.jpg) center center no-repeat / contain;
+                }
             }
         }
     }
@@ -249,12 +360,40 @@
         display: none;
         width: 80%;
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 140px;
         .wrap-slider{
             justify-content: center;
             align-content: center;
             div img {
                 width: 100%;
+            }
+        }
+    }
+    .about{
+        margin-top: 150px;
+        .wrap-about{
+            width: 90%;
+            margin: 0 auto;
+            h2{
+                color: #000;
+                font-size: 50px;
+                font-weight: normal;
+                text-align: center;
+            }
+            .content-about-grid{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 2fr;
+                grid-column-gap: 20px;
+                .text-content-about{
+                    color: #000;
+                    font-size: 20px;
+                }
+                .pic-content-about{
+                    background: url(../img/main/about/bar.jpg) center center no-repeat / cover;
+                    width: 100%;
+                    height: 100%;
+                }
             }
         }
     }

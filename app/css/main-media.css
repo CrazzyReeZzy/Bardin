@@ -22,7 +22,29 @@
       justify-content: center;
       align-content: center; }
       .slider .wrap-slider div img {
-        width: 100%; } }
+        width: 100%; }
+  .about {
+    margin-top: 150px; }
+    .about .wrap-about {
+      width: 90%;
+      margin: 0 auto; }
+      .about .wrap-about h2 {
+        color: #000;
+        font-size: 50px;
+        font-weight: normal;
+        text-align: center; }
+      .about .wrap-about .content-about-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        grid-column-gap: 20px; }
+        .about .wrap-about .content-about-grid .text-content-about {
+          color: #000;
+          font-size: 20px; }
+        .about .wrap-about .content-about-grid .pic-content-about {
+          background: url(../img/main/about/bar.jpg) center center no-repeat/cover;
+          width: 100%;
+          height: 100%; } }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 801px) and (max-width: 991px) {
@@ -31,13 +53,35 @@
   .slider {
     width: 100%;
     margin: 0 auto;
-    margin-top: 40px; }
+    margin-top: 140px; }
     .slider .wrap-slider {
       display: flex;
       justify-content: center;
       align-content: center; }
       .slider .wrap-slider div img {
-        width: 100%; } }
+        width: 100%; }
+  .about {
+    margin-top: 150px; }
+    .about .wrap-about {
+      width: 90%;
+      margin: 0 auto; }
+      .about .wrap-about h2 {
+        color: #000;
+        font-size: 50px;
+        font-weight: normal;
+        text-align: center; }
+      .about .wrap-about .content-about-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        grid-column-gap: 20px; }
+        .about .wrap-about .content-about-grid .text-content-about {
+          color: #000;
+          font-size: 20px; }
+        .about .wrap-about .content-about-grid .pic-content-about {
+          background: url(../img/main/about/bar.jpg) center center no-repeat/cover;
+          width: 100%;
+          height: 100%; } }
 
 @media (min-width: 768px) and (max-width: 800px) {
   .header .wrap-header .wrap-menu .menu .menu__item {
@@ -48,13 +92,33 @@
   .slider {
     width: 100%;
     margin: 0 auto;
-    margin-top: 40px; }
+    margin-top: 140px; }
     .slider .wrap-slider {
       display: flex;
       justify-content: center;
       align-content: center; }
       .slider .wrap-slider div img {
-        width: 100%; } }
+        width: 100%; }
+  .about {
+    margin-top: 150px; }
+    .about .wrap-about {
+      width: 90%;
+      margin: 0 auto; }
+      .about .wrap-about h2 {
+        color: #000;
+        font-size: 50px;
+        font-weight: normal;
+        text-align: center; }
+      .about .wrap-about .content-about-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 20px; }
+        .about .wrap-about .content-about-grid .text-content-about {
+          color: #000;
+          font-size: 20px; }
+        .about .wrap-about .content-about-grid .pic-content-about {
+          background: url(../img/main/about/bar.jpg) center center no-repeat/contain; } }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
@@ -104,16 +168,38 @@
         height: 20px; }
       .offer .wrap-offer .phone p {
         margin-left: 15px; }
+  .utp {
+    font-size: 15px; }
   .slider {
     display: none;
     width: 100%;
     margin: 0 auto;
-    margin-top: 40px; }
+    margin-top: 140px; }
     .slider .wrap-slider {
       justify-content: center;
       align-content: center; }
       .slider .wrap-slider div img {
-        width: 100%; } }
+        width: 100%; }
+  .about {
+    margin-top: 50px; }
+    .about .wrap-about {
+      width: 90%;
+      margin: 0 auto; }
+      .about .wrap-about h2 {
+        color: #000;
+        font-size: 50px;
+        font-weight: normal;
+        text-align: center; }
+      .about .wrap-about .content-about-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 20px; }
+        .about .wrap-about .content-about-grid .text-content-about {
+          color: #000;
+          font-size: 15px; }
+        .about .wrap-about .content-about-grid .pic-content-about {
+          background: url(../img/main/about/bar.jpg) center center no-repeat/contain; } }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
@@ -167,11 +253,33 @@
     display: none;
     width: 80%;
     margin: 0 auto;
-    margin-top: 40px; }
+    margin-top: 140px; }
     .slider .wrap-slider {
       justify-content: center;
       align-content: center; }
       .slider .wrap-slider div img {
-        width: 100%; } }
+        width: 100%; }
+  .about {
+    margin-top: 150px; }
+    .about .wrap-about {
+      width: 90%;
+      margin: 0 auto; }
+      .about .wrap-about h2 {
+        color: #000;
+        font-size: 50px;
+        font-weight: normal;
+        text-align: center; }
+      .about .wrap-about .content-about-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        grid-column-gap: 20px; }
+        .about .wrap-about .content-about-grid .text-content-about {
+          color: #000;
+          font-size: 20px; }
+        .about .wrap-about .content-about-grid .pic-content-about {
+          background: url(../img/main/about/bar.jpg) center center no-repeat/cover;
+          width: 100%;
+          height: 100%; } }
 
 /* Iphone 5 */
