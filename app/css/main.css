@@ -91,20 +91,60 @@ body {
         width: 100%;
         height: 100%; }
 
-.stock .wrap-stock-grid {
-  padding: 10px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px; }
-  .stock .wrap-stock-grid .stock-item-grid {
-    min-height: 32vh;
-    background-size: cover;
-    background-position: center;
+.stock {
+  width: 90%;
+  margin: 70px auto; }
+  .stock h2 {
     text-align: center;
-    align-content: center;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #000;
-    position: relative;
-    transition: color .5s ease;
-    cursor: pointer; }
+    font-size: 50px;
+    font-weight: normal; }
+  .stock .wrap-stock-grid {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; }
+    .stock .wrap-stock-grid .stock-item-grid {
+      display: grid;
+      min-height: 42vh;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      align-content: center;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      position: relative;
+      transition: color .5s ease;
+      cursor: pointer; }
+      .stock .wrap-stock-grid .stock-item-grid:hover {
+        color: #fff; }
+      .stock .wrap-stock-grid .stock-item-grid:hover span.front {
+        display: none; }
+      .stock .wrap-stock-grid .stock-item-grid:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #293A43;
+        opacity: .65;
+        transition: opacity 0.5s ease; }
+      .stock .wrap-stock-grid .stock-item-grid:hover.stock-item-grid:before {
+        opacity: .100; }
+      .stock .wrap-stock-grid .stock-item-grid > * {
+        z-index: 1; }
+
+.events {
+  margin: 150px; }
+  .events h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal; }
+  .events .wrap-events {
+    width: 90%;
+    margin: 0 auto; }
+    .events .wrap-events .wrap-events-item .events-item {
+      margin-top: 50px;
+      text-align: left; }

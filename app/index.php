@@ -89,19 +89,60 @@
     </section>
     <!-- Акции !-->
     <section class = "stock">
+        <h2>Акции</h2>
         <div class="wrap-stock-grid">
-            <div class="stock-item-grid" style="background-image: url(img/1.jpg)"><span>Cooll Glasses</span></div>
-	  	    <div class="stock-item-grid" style="background-image: url(img/2.jpg)"><span>Cooll MacBook</span></div>
-	  	    <div class="stock-item-grid" style="background-image: url(img/3.jpg)"><span>Cooll iMac</span></div>
-	  	    <div class="stock-item-grid" style="background-image: url(img/4.jpg)"><span>Cooll Hacking</span></div>
-	  	    <div class="stock-item-grid" style="background-image: url(img/5.jpg)"><span>Cooll Bull Shit</span></div>
-	  	    <div class="stock-item-grid" style="background-image: url(img/6.jpg)"><span>Cooll WorkSpace</span></div>
-	  	    <div class="stock-item-grid" style="background-image: url(img/7.jpg)"><span>Cooll NoteBook</span></div>
-	  	    <div class="stock-item-grid" style="background-image: url(img/8.jpg)"><span>Cooll Code</span></div>
-	  	    <div class="stock-item-grid" style="background-image: url(img/9.jpg)"><span>Cooll Timer</span></div>
+            <div class="stock-item-grid" style="background-image: url(img/main/stock/autumn.jpg)"><span class = "front">При заказе 4 шотов пятый в подарок</span><span class = "back">Подробное описание</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/main/stock/drink.jpg)"><span class = "front">Скидка на бар 25% с вс по чт, кроме пива</span><span class = "back">Подробное описание</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/main/stock/spark.jpg)"><span class = "front">Скидка на кальян 25% с воскресенья по четверг</span><span class = "back">Подробное описание</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/main/stock/vodka.jpg)"><span class = "front">При заказе бутылки водки* селедочка в подарок</span><span class = "back">Подробное описание</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/main/stock/wine.jpg)"><span class = "front">При заказе бутылки вина* сырное вссорти в подарок</span><span class = "back">Подробное описание</span></div>
+	  	    <div class="stock-item-grid" style="background-image: url(img/main/stock/dessert.jpg)"><span class = "front">Скидка 25% на меню кухни с вс по вт</span><span class = "back">Подробное описание</span></div>
         </div>
     </section>
-    <!-- Специальные предложения !-->
+    <!-- События !-->
+    <section class = "events">
+        <h2>События</h2>
+        <div class = "wrap-events">
+            <div class="wrap-events-item">
+                <div class="events-item">
+                    <p> <b>Далеко-далеко</b> за, словесными горами в стране гласных и согласных живут рыбные тексты. 
+                        Вдали, не за текст большой себя над они он! Даль пояс своих злых лучше языком
+                        реторический парадигматическая первую маленькая запятых океана. Переулка скатился,
+                        подпоясал пор свой путь но взгляд рыбными, предупреждал ipsum свою за, использовало
+                        всемогущая первую грамматики. Ее, раз.
+                    </p>
+                    <hr>
+                </div>
+                <div class="events-item">
+                    <p> <b>Далеко-далеко</b> за, словесными горами в стране гласных и согласных живут рыбные тексты. 
+                        Вдали, не за текст большой себя над они он! Даль пояс своих злых лучше языком
+                        реторический парадигматическая первую маленькая запятых океана. Переулка скатился,
+                        подпоясал пор свой путь но взгляд рыбными, предупреждал ipsum свою за, использовало
+                        всемогущая первую грамматики. Ее, раз.
+                    </p>
+                    <hr>
+                </div>
+                <div class="events-item">
+                    <p> <b>Далеко-далеко</b> за, словесными горами в стране гласных и согласных живут рыбные тексты. 
+                        Вдали, не за текст большой себя над они он! Даль пояс своих злых лучше языком
+                        реторический парадигматическая первую маленькая запятых океана. Переулка скатился,
+                        подпоясал пор свой путь но взгляд рыбными, предупреждал ipsum свою за, использовало
+                        всемогущая первую грамматики. Ее, раз.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Ваше мероприятие !-->
+    <section class = "party">
+        <h2>Ваше мероприятие</h2>
+        <div class="wrap-party">
+            <div class="party-item">
+                
+            </div>
+        </div>
+    </section>
     <!-- Footer !-->
     <?php require_once "php-script/footer.php";?>
 </body>

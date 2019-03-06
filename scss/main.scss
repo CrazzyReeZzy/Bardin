@@ -106,12 +106,21 @@ body{
     }
 }
 .stock{
+    width: 90%;
+    margin: 70px auto;
+    h2{
+        text-align: center;
+        font-size: 50px;
+        font-weight: normal;
+    }
     .wrap-stock-grid{
         padding:10px;
-	    grid-template-columns: repeat(4,1fr);
+        display: grid;
+	    grid-template-columns: repeat(3,1fr);
         grid-gap: 10px;
         .stock-item-grid{
-            min-height: 32vh;
+            display: grid;
+            min-height: 42vh;
 	        background-size: cover;
 	        background-position: center;
 	        text-align: center;
@@ -119,11 +128,53 @@ body{
 	        padding: 20px;
 	        font-size: 20px;
 	        font-weight: bold;
-	        color: #000;
+	        color: #fff;
 	        position: relative;
 	        transition: color .5s ease;
-	        cursor: pointer;
+            cursor: pointer;
+            &:hover{
+                color: #fff;
+            }
+            &:hover span.front{
+                display: none;
+            }
+            &:before{
+                content: '';
+	            position: absolute;
+	            top: 0;
+	            left: 0;
+	            right: 0;
+	            bottom: 0;
+	            background-color: #293A43;
+	            opacity: .65;
+	            transition: opacity 0.5s ease ;
+            }
+            &:hover.stock-item-grid:before{
+                opacity: .100;
+            }
+            & > *{
+                z-index: 1;
+            }
         }
     }
     
+}
+.events{
+    margin: 150px;
+    h2{
+        text-align: center;
+        font-size: 50px;
+        font-weight: normal;
+    }
+    .wrap-events{
+        width: 90%;
+        margin: 0 auto;
+        .wrap-events-item{
+
+            .events-item{
+                margin-top: 50px;
+                text-align: left;
+            }
+        }
+    }
 }
