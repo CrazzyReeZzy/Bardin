@@ -81,7 +81,55 @@
         .about .wrap-about .content-about-grid .pic-content-about {
           background: url(../img/main/about/bar.jpg) center center no-repeat/cover;
           width: 100%;
-          height: 100%; } }
+          height: 100%; }
+  .stock {
+    width: 90%;
+    margin: 70px auto; }
+    .stock h2 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: normal; }
+    .stock .wrap-stock-grid {
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px; }
+      .stock .wrap-stock-grid .stock-item-grid {
+        display: grid;
+        min-height: 42vh;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        align-content: center;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        position: relative;
+        transition: color .5s ease;
+        cursor: pointer; }
+        .stock .wrap-stock-grid .stock-item-grid .back {
+          display: none; }
+        .stock .wrap-stock-grid .stock-item-grid:hover {
+          color: #fff; }
+        .stock .wrap-stock-grid .stock-item-grid:hover span.front {
+          display: none; }
+        .stock .wrap-stock-grid .stock-item-grid:hover span.back {
+          display: block; }
+        .stock .wrap-stock-grid .stock-item-grid:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #293A43;
+          opacity: .65;
+          transition: opacity 0.5s ease; }
+        .stock .wrap-stock-grid .stock-item-grid:hover.stock-item-grid:before {
+          opacity: .100; }
+        .stock .wrap-stock-grid .stock-item-grid > * {
+          z-index: 1; } }
 
 @media (min-width: 768px) and (max-width: 800px) {
   .header .wrap-header .wrap-menu .menu .menu__item {
@@ -118,7 +166,72 @@
           color: #000;
           font-size: 20px; }
         .about .wrap-about .content-about-grid .pic-content-about {
-          background: url(../img/main/about/bar.jpg) center center no-repeat/contain; } }
+          background: url(../img/main/about/bar.jpg) center center no-repeat/contain; }
+  .stock {
+    width: 90%;
+    margin: 70px auto; }
+    .stock h2 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: normal; }
+    .stock .wrap-stock-grid {
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px; }
+      .stock .wrap-stock-grid .stock-item-grid {
+        display: grid;
+        min-height: 42vh;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        align-content: center;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        position: relative;
+        transition: color .5s ease;
+        cursor: pointer; }
+        .stock .wrap-stock-grid .stock-item-grid .back {
+          display: none; }
+        .stock .wrap-stock-grid .stock-item-grid:hover {
+          color: #fff; }
+        .stock .wrap-stock-grid .stock-item-grid:hover span.front {
+          display: none; }
+        .stock .wrap-stock-grid .stock-item-grid:hover span.back {
+          display: block; }
+        .stock .wrap-stock-grid .stock-item-grid:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #293A43;
+          opacity: .65;
+          transition: opacity 0.5s ease; }
+        .stock .wrap-stock-grid .stock-item-grid:hover.stock-item-grid:before {
+          opacity: .100; }
+        .stock .wrap-stock-grid .stock-item-grid > * {
+          z-index: 1; }
+  .party {
+    margin-top: 150px; }
+    .party h2 {
+      text-align: center;
+      font-weight: normal;
+      font-size: 50px; }
+    .party .wrap-party-grid {
+      width: 80%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr; }
+      .party .wrap-party-grid .party-item {
+        border-top: 0.5px solid #5f5f5f;
+        border-bottom: 0.5px solid #5f5f5f;
+        border-left: 0.5px solid #5f5f5f;
+        border-right: 0.5px solid #5f5f5f;
+        padding: 10px 50px; } }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
@@ -199,7 +312,72 @@
           color: #000;
           font-size: 15px; }
         .about .wrap-about .content-about-grid .pic-content-about {
-          background: url(../img/main/about/bar.jpg) center center no-repeat/contain; } }
+          background: url(../img/main/about/bar.jpg) center center no-repeat/contain; }
+  .stock {
+    width: 90%;
+    margin: 70px auto; }
+    .stock h2 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: normal; }
+    .stock .wrap-stock-grid {
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px; }
+      .stock .wrap-stock-grid .stock-item-grid {
+        display: grid;
+        min-height: 42vh;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        align-content: center;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        position: relative;
+        transition: color .5s ease;
+        cursor: pointer; }
+        .stock .wrap-stock-grid .stock-item-grid .back {
+          display: none; }
+        .stock .wrap-stock-grid .stock-item-grid:hover {
+          color: #fff; }
+        .stock .wrap-stock-grid .stock-item-grid:hover span.front {
+          display: none; }
+        .stock .wrap-stock-grid .stock-item-grid:hover span.back {
+          display: block; }
+        .stock .wrap-stock-grid .stock-item-grid:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #293A43;
+          opacity: .65;
+          transition: opacity 0.5s ease; }
+        .stock .wrap-stock-grid .stock-item-grid:hover.stock-item-grid:before {
+          opacity: .100; }
+        .stock .wrap-stock-grid .stock-item-grid > * {
+          z-index: 1; }
+  .party {
+    margin-top: 150px; }
+    .party h2 {
+      text-align: center;
+      font-weight: normal;
+      font-size: 50px; }
+    .party .wrap-party-grid {
+      width: 80%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr; }
+      .party .wrap-party-grid .party-item {
+        border-top: 0.5px solid #5f5f5f;
+        border-bottom: 0.5px solid #5f5f5f;
+        border-left: 0.5px solid #5f5f5f;
+        border-right: 0.5px solid #5f5f5f;
+        padding: 10px 50px; } }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
@@ -260,7 +438,7 @@
       .slider .wrap-slider div img {
         width: 100%; }
   .about {
-    margin-top: 150px; }
+    margin-top: 100px; }
     .about .wrap-about {
       width: 90%;
       margin: 0 auto; }
@@ -272,14 +450,96 @@
       .about .wrap-about .content-about-grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr;
+        grid-template-rows: 1fr 0.5fr;
         grid-column-gap: 20px; }
         .about .wrap-about .content-about-grid .text-content-about {
           color: #000;
-          font-size: 20px; }
+          font-size: 18px; }
         .about .wrap-about .content-about-grid .pic-content-about {
-          background: url(../img/main/about/bar.jpg) center center no-repeat/cover;
-          width: 100%;
-          height: 100%; } }
+          background: url(../img/main/about/bar.jpg) center center no-repeat/contain; }
+  .stock {
+    width: 90%;
+    margin: 70px auto; }
+    .stock h2 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: normal; }
+    .stock .wrap-stock-grid {
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px; }
+      .stock .wrap-stock-grid .stock-item-grid {
+        display: grid;
+        min-height: 42vh;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        align-content: center;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        position: relative;
+        transition: color .5s ease;
+        cursor: pointer; }
+        .stock .wrap-stock-grid .stock-item-grid .back {
+          display: none; }
+        .stock .wrap-stock-grid .stock-item-grid:hover {
+          color: #fff; }
+        .stock .wrap-stock-grid .stock-item-grid:hover span.front {
+          display: none; }
+        .stock .wrap-stock-grid .stock-item-grid:hover span.back {
+          display: block; }
+        .stock .wrap-stock-grid .stock-item-grid:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #293A43;
+          opacity: .65;
+          transition: opacity 0.5s ease; }
+        .stock .wrap-stock-grid .stock-item-grid:hover.stock-item-grid:before {
+          opacity: .100; }
+        .stock .wrap-stock-grid .stock-item-grid > * {
+          z-index: 1; }
+  .events {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px; }
+    .events h2 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: normal; }
+    .events .wrap-events {
+      width: 100%; }
+      .events .wrap-events .wrap-events-item {
+        width: 100%;
+        text-align: left; }
+        .events .wrap-events .wrap-events-item .events-item {
+          text-align: left;
+          margin-top: 50px;
+          font-size: 15px; }
+          .events .wrap-events .wrap-events-item .events-item p {
+            text-align: left; }
+  .party {
+    margin-top: 150px; }
+    .party h2 {
+      text-align: center;
+      font-weight: normal;
+      font-size: 50px; }
+    .party .wrap-party-grid {
+      width: 80%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr; }
+      .party .wrap-party-grid .party-item {
+        border-top: 0.5px solid #5f5f5f;
+        border-bottom: 0.5px solid #5f5f5f;
+        border-left: 0.5px solid #5f5f5f;
+        border-right: 0.5px solid #5f5f5f;
+        padding: 10px 50px; } }
 
 /* Iphone 5 */
