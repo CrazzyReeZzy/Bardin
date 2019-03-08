@@ -1,8 +1,11 @@
 body{
     font-family: Courier New, sans-serif;
     font-size: 14px;
-    background: #000 url('../img/main/fon-bg.jpg') center top / cover;
     color: #fff;
+}
+.header{
+    background: url("../img/menu/bg/eat.jpg") top center no-repeat / cover;
+    height: 100vh;
 }
 .main{
     h1 {
@@ -10,9 +13,7 @@ body{
         text-align: center;
     }
     .wrap-main{
-        width: 80%;
-        display: grid;
-        grid-template-columns: 30% 70%;
+        width: 95%;
         .wrap-button{
             display: flex;
             flex-direction: column;

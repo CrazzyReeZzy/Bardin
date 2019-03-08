@@ -14,17 +14,27 @@
     <link rel="stylesheet" href="../css/var.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/offer.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/menu-media.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../libs/magnific-popup/magnific-popup.css">
 </head>
 <body>
-    <!-- Подключаем меню !-->
-    <?php require_once "../php-script/header.php";?>
+    <header class = "header" id = "header">
+        <!-- Подключаем меню !-->
+        <?php require_once "../php-script/header.php";?>
+        <!-- Первая строка social,logo,phone !-->
+        <?php require_once "../php-script/offer.php";?>
+        <!-- УТП !-->
+        <section style="text-align: center;font-size: 25px;">
+            <h1>Меню</h1>
+        </section>
+    </header>
     <!-- Скрипт php создание адресов для вывода фотографий !-->
     <?php require_once "../php-script/menu-pix.php";?>
     <!-- Главная секция !-->
+    <!--
     <main class = "main" id = "main">
         <h1>Меню</h1>
         <div class="wrap-main">
@@ -64,6 +74,7 @@
             </div>
         </div>
     </main>
+    !-->
     <!-- Footer !-->
     <?php require_once "../php-script/footer.php";?>
      <!--script !-->
