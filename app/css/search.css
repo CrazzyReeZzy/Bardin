@@ -1,0 +1,96 @@
+.header {
+  background: #000 url(../img/search/microfon.jpg) top center no-repeat/cover;
+  height: 100vh; }
+  .header .utp {
+    color: #fff;
+    text-align: center; }
+    .header .utp h1 {
+      font-size: 40px;
+      margin-bottom: 0px; }
+    .header .utp p {
+      font-size: 20px;
+      margin-top: 0px; }
+  .header .control {
+    width: 100%; }
+    .header .control .wrap-control {
+      width: 95%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2;
+      grid-template-rows: 4; }
+      .header .control .wrap-control .btn {
+        width: 250px;
+        height: 50px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        margin-bottom: 50px; }
+        .header .control .wrap-control .btn:hover {
+          background-color: #404040; }
+      .header .control .wrap-control .btn-ru {
+        grid-row: 1;
+        grid-column: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .header .control .wrap-control .btn-en {
+        grid-row: 1;
+        grid-column: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .header .control .wrap-control .field {
+        grid-row: 2;
+        grid-column: 1 / 3; }
+        .header .control .wrap-control .field .field-search {
+          width: 100%;
+          height: 35px; }
+      .header .control .wrap-control .toggle {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 18px; }
+        .header .control .wrap-control .toggle .toggle-input {
+          position: absolute;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none; }
+          .header .control .wrap-control .toggle .toggle-input:checked + .toggle-box {
+            background-image: url(https://cdn.glitch.com/d6162378-5823-4160-a555-3d9789bd2b92%2Fon.svg?1550563355439); }
+          .header .control .wrap-control .toggle .toggle-input:focus + .toggle-box {
+            background-image: url(https://cdn.glitch.com/d6162378-5823-4160-a555-3d9789bd2b92%2Foff-focused.svg?1550563355021); }
+          .header .control .wrap-control .toggle .toggle-input:checked:focus + .toggle-box {
+            background-image: url(https://cdn.glitch.com/d6162378-5823-4160-a555-3d9789bd2b92%2Fon-focused.svg?1550563355063); }
+          .header .control .wrap-control .toggle .toggle-input:disabled + .toggle-box {
+            background-image: url(https://cdn.glitch.com/d6162378-5823-4160-a555-3d9789bd2b92%2Foff-disabled.svg?1550563354916); }
+          .header .control .wrap-control .toggle .toggle-input:checked:disabled + .toggle-box {
+            background-image: url(https://cdn.glitch.com/d6162378-5823-4160-a555-3d9789bd2b92%2Fon-disabled.svg?1550563354883); }
+        .header .control .wrap-control .toggle .toggle-box {
+          position: absolute;
+          margin-top: -10px;
+          margin-left: -40px;
+          width: 40px;
+          height: 40px;
+          background-image: url(https://cdn.glitch.com/d6162378-5823-4160-a555-3d9789bd2b92%2Foff.svg?1550563355034); }
+      .header .control .wrap-control .toggle-name {
+        grid-row: 3;
+        grid-column: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .header .control .wrap-control .togle-autor {
+        grid-row: 3;
+        grid-column: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .header .control .wrap-control .btn-search {
+        grid-row: 4;
+        grid-column: 1 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+
+.search {
+  background-color: #000;
+  height: 100vh; }

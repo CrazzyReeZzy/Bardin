@@ -1,295 +1,363 @@
 @media (min-width: 992px) and (max-width: 1199px) {
-  .main h1 {
-    margin-top: 70px;
-    text-align: center; }
-  .main .wrap-main {
-    width: 80%;
-    display: grid;
-    grid-template-columns: 30% 70%; }
-    .main .wrap-main .wrap-button {
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-      .main .wrap-main .wrap-button .btn {
-        margin-bottom: 20px;
-        width: 150px;
-        height: 50px;
-        outline: 0 !important;
-        border: 0;
-        padding: 0;
-        cursor: pointer; }
-    .main .wrap-main .wrap-content .wrap-bat0-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat0-grid img {
-        width: 400px;
-        height: 800px; }
-    .main .wrap-main .wrap-content .wrap-bat1-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat1-grid img {
-        width: 400px;
-        height: 800px; }
-    .main .wrap-main .wrap-content .wrap-bat2-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat2-grid img {
-        width: 400px;
-        height: 800px; }
-    .main .wrap-main .wrap-content .wrap-bat3-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat3-grid img {
-        width: 500px;
-        height: 750px; }
-    .main .wrap-main .wrap-content .wrap-bat4-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat4-grid img {
-        width: 496px;
-        height: 691px; } }
+  .main {
+    background-color: #000;
+    padding-top: 50px; }
+    .main .wrap-content {
+      width: 90%;
+      margin: 0 auto; }
+      .main .wrap-content .wrap-bat0-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat0-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat1-grid {
+        display: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat1-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat2-grid {
+        display: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat2-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat3-grid {
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat3-grid img {
+          width: 500px;
+          height: 750px; }
+      .main .wrap-content .wrap-bat4-grid {
+        display: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat4-grid img {
+          width: 496px;
+          height: 691px; } }
 
 @media (min-width: 801px) and (max-width: 991px) {
-  .main h1 {
-    margin-top: 70px;
-    text-align: center; }
-  .main .wrap-main {
-    width: 80%;
-    display: grid;
-    grid-template-columns: 30% 70%; }
-    .main .wrap-main .wrap-button {
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-      .main .wrap-main .wrap-button .btn {
-        margin-bottom: 20px;
-        width: 150px;
-        height: 50px;
-        outline: 0 !important;
-        border: 0;
-        padding: 0;
-        cursor: pointer; }
-    .main .wrap-main .wrap-content .wrap-bat0-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat0-grid img {
-        width: 400px;
-        height: 800px; }
-    .main .wrap-main .wrap-content .wrap-bat1-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat1-grid img {
-        width: 400px;
-        height: 800px; }
-    .main .wrap-main .wrap-content .wrap-bat2-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat2-grid img {
-        width: 400px;
-        height: 800px; }
-    .main .wrap-main .wrap-content .wrap-bat3-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat3-grid img {
-        width: 500px;
-        height: 750px; }
-    .main .wrap-main .wrap-content .wrap-bat4-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat4-grid img {
-        width: 496px;
-        height: 691px; } }
+  .main {
+    background-color: #000;
+    padding-top: 50px; }
+    .main .wrap-content {
+      width: 90%;
+      margin: 0 auto; }
+      .main .wrap-content .wrap-bat0-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat0-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat1-grid {
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat1-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat2-grid {
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat2-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat3-grid {
+        display: none;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat3-grid img {
+          width: 500px;
+          height: 750px; }
+      .main .wrap-content .wrap-bat4-grid {
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat4-grid img {
+          width: 496px;
+          height: 691px; } }
 
 @media (min-width: 768px) and (max-width: 800px) {
-  .main h1 {
-    margin-top: 70px;
-    text-align: center; }
-  .main .wrap-main {
-    width: 80%;
-    display: grid;
-    grid-template-columns: 30% 70%; }
-    .main .wrap-main .wrap-button {
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-      .main .wrap-main .wrap-button .btn {
-        margin-bottom: 20px;
-        width: 150px;
-        height: 50px;
-        outline: 0 !important;
-        border: 0;
-        padding: 0;
-        cursor: pointer; }
-    .main .wrap-main .wrap-content .wrap-bat0-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat0-grid img {
-        width: 400px;
-        height: 800px; }
-    .main .wrap-main .wrap-content .wrap-bat1-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat1-grid img {
-        width: 400px;
-        height: 800px; }
-    .main .wrap-main .wrap-content .wrap-bat2-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat2-grid img {
-        width: 400px;
-        height: 800px; }
-    .main .wrap-main .wrap-content .wrap-bat3-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat3-grid img {
-        width: 500px;
-        height: 750px; }
-    .main .wrap-main .wrap-content .wrap-bat4-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat4-grid img {
-        width: 496px;
-        height: 691px; } }
+  .header .navigation {
+    width: 100%; }
+    .header .navigation .wrap-menu {
+      width: 600px;
+      margin: 0 auto; }
+      .header .navigation .wrap-menu .wrap-button {
+        display: grid;
+        grid-template-rows: 3;
+        grid-template-columns: 2; }
+        .header .navigation .wrap-menu .wrap-button .btn {
+          width: 300px;
+          height: 60px;
+          font-size: 17px;
+          background-color: #fff;
+          outline: 0 !important;
+          border: 0.1px solid #000;
+          padding: 0;
+          cursor: pointer; }
+        .header .navigation .wrap-menu .wrap-button .bat0 {
+          width: 600px;
+          background-color: #000;
+          color: #fff;
+          font-size: 20px;
+          grid-row: 1;
+          grid-column: 1 / 3; }
+        .header .navigation .wrap-menu .wrap-button .bat1 {
+          grid-row: 2;
+          grid-column: 1 / 2; }
+        .header .navigation .wrap-menu .wrap-button .bat2 {
+          grid-row: 2;
+          grid-column: 2 / 3; }
+        .header .navigation .wrap-menu .wrap-button .bat3 {
+          grid-row: 3;
+          grid-column: 1; }
+        .header .navigation .wrap-menu .wrap-button .bat4 {
+          grid-row: 3;
+          grid-column: 2; }
+  .main {
+    background-color: #000;
+    padding-top: 150px; }
+    .main .wrap-content {
+      width: 100%;
+      margin: 0 auto; }
+      .main .wrap-content .wrap-bat0-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat0-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat1-grid {
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat1-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat2-grid {
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat2-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat3-grid {
+        display: none;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat3-grid img {
+          width: 500px;
+          height: 750px; }
+      .main .wrap-content .wrap-bat4-grid {
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat4-grid img {
+          width: 496px;
+          height: 691px; } }
 
 @media (max-width: 767px) {
-  .main h1 {
-    margin-top: 70px;
-    text-align: center; }
-  .main .wrap-main {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 70%; }
-    .main .wrap-main .wrap-button {
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-      .main .wrap-main .wrap-button .btn {
-        margin-bottom: 20px;
-        width: 130px;
-        height: 50px;
-        outline: 0 !important;
-        border: 0;
-        padding: 0;
-        cursor: pointer; }
-    .main .wrap-main .wrap-content .wrap-bat0-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 5px; }
-      .main .wrap-main .wrap-content .wrap-bat0-grid img {
-        width: 300px;
-        height: 700px; }
-    .main .wrap-main .wrap-content .wrap-bat1-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px;
-      justify-content: center; }
-      .main .wrap-main .wrap-content .wrap-bat1-grid img {
-        width: 300px;
-        height: 700px; }
-    .main .wrap-main .wrap-content .wrap-bat2-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px;
-      justify-content: center; }
-      .main .wrap-main .wrap-content .wrap-bat2-grid img {
-        width: 300px;
-        height: 700px; }
-    .main .wrap-main .wrap-content .wrap-bat3-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px;
-      justify-content: center; }
-      .main .wrap-main .wrap-content .wrap-bat3-grid img {
-        width: 300px;
-        height: 550px; }
-    .main .wrap-main .wrap-content .wrap-bat4-grid {
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px;
-      justify-content: center; }
-      .main .wrap-main .wrap-content .wrap-bat4-grid img {
-        width: 296px;
-        height: 491px; } }
+  .header .navigation {
+    width: 100%; }
+    .header .navigation .wrap-menu {
+      width: 100%;
+      margin: 0 auto; }
+      .header .navigation .wrap-menu .wrap-button {
+        display: grid;
+        grid-template-rows: 3;
+        grid-template-columns: 2; }
+        .header .navigation .wrap-menu .wrap-button .btn {
+          width: 100%;
+          height: 60px;
+          font-size: 17px;
+          background-color: #fff;
+          outline: 0 !important;
+          border: 0.1px solid #000;
+          padding: 0;
+          cursor: pointer; }
+        .header .navigation .wrap-menu .wrap-button .bat0 {
+          background-color: #000;
+          color: #fff;
+          font-size: 20px;
+          grid-row: 1;
+          grid-column: 1 / 3; }
+        .header .navigation .wrap-menu .wrap-button .bat1 {
+          grid-row: 2;
+          grid-column: 1 / 2; }
+        .header .navigation .wrap-menu .wrap-button .bat2 {
+          grid-row: 2;
+          grid-column: 2 / 3; }
+        .header .navigation .wrap-menu .wrap-button .bat3 {
+          grid-row: 3;
+          grid-column: 1; }
+        .header .navigation .wrap-menu .wrap-button .bat4 {
+          grid-row: 3;
+          grid-column: 2; }
+  .main {
+    background-color: #000;
+    padding-top: 150px; }
+    .main .wrap-content {
+      width: 100%;
+      margin: 0 auto; }
+      .main .wrap-content .wrap-bat0-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat0-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat1-grid {
+        display: none;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat1-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat2-grid {
+        display: none;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat2-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat3-grid {
+        display: none;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat3-grid img {
+          width: 500px;
+          height: 750px; }
+      .main .wrap-content .wrap-bat4-grid {
+        display: none;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat4-grid img {
+          width: 496px;
+          height: 691px; } }
 
 @media (max-width: 480px) {
-  .main h1 {
-    margin-top: 70px;
-    text-align: center; }
-  .main .wrap-main {
-    width: 100%;
-    display: grid;
-    grid-template-rows: 2;
-    grid-template-columns: initial;
-    margin: 0 auto; }
-    .main .wrap-main .wrap-button {
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-      .main .wrap-main .wrap-button .btn {
-        margin-bottom: 20px;
-        width: 130px;
-        height: 50px;
-        outline: 0 !important;
-        border: 0;
-        padding: 0;
-        cursor: pointer; }
-    .main .wrap-main .wrap-content .wrap-bat0-grid {
-      grid-row: 2;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 5px;
-      justify-content: center; }
-      .main .wrap-main .wrap-content .wrap-bat0-grid img {
-        width: 380px;
-        height: 700px; }
-    .main .wrap-main .wrap-content .wrap-bat1-grid {
-      grid-row: 2;
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px;
-      justify-content: center; }
-      .main .wrap-main .wrap-content .wrap-bat1-grid img {
-        width: 380px;
-        height: 700px; }
-    .main .wrap-main .wrap-content .wrap-bat2-grid {
-      grid-row: 2;
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px;
-      justify-content: center; }
-      .main .wrap-main .wrap-content .wrap-bat2-grid img {
-        width: 380px;
-        height: 700px; }
-    .main .wrap-main .wrap-content .wrap-bat3-grid {
-      grid-row: 2;
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px;
-      justify-content: center; }
-      .main .wrap-main .wrap-content .wrap-bat3-grid img {
-        width: 380px;
-        height: 650px; }
-    .main .wrap-main .wrap-content .wrap-bat4-grid {
-      grid-row: 2;
-      display: none;
-      grid-template-columns: 1fr;
-      grid-gap: 5px;
-      justify-content: center; }
-      .main .wrap-main .wrap-content .wrap-bat4-grid img {
-        width: 380px;
-        height: 591px; } }
+  .navigation {
+    width: 100%; }
+    .navigation .wrap-menu {
+      width: 300px;
+      margin: 0 auto; }
+      .navigation .wrap-menu .wrap-button {
+        display: grid;
+        grid-template-rows: 3;
+        grid-template-columns: 2; }
+        .navigation .wrap-menu .wrap-button .btn {
+          width: 150px;
+          height: 60px;
+          font-size: 17px;
+          background-color: #fff;
+          outline: 0 !important;
+          border: 0.1px solid #000;
+          padding: 0;
+          cursor: pointer; }
+        .navigation .wrap-menu .wrap-button .bat0 {
+          width: 300px;
+          background-color: #000;
+          color: #fff;
+          font-size: 20px;
+          grid-row: 1;
+          grid-column: 1 / 3; }
+        .navigation .wrap-menu .wrap-button .bat1 {
+          grid-row: 2;
+          grid-column: 1 / 2; }
+        .navigation .wrap-menu .wrap-button .bat2 {
+          grid-row: 2;
+          grid-column: 2 / 3; }
+        .navigation .wrap-menu .wrap-button .bat3 {
+          grid-row: 3;
+          grid-column: 1; }
+        .navigation .wrap-menu .wrap-button .bat4 {
+          grid-row: 3;
+          grid-column: 2; }
+  .main {
+    background-color: #000;
+    padding-top: 150px; }
+    .main .wrap-content {
+      width: 90%;
+      margin: 0 auto; }
+      .main .wrap-content .wrap-bat0-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat0-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat1-grid {
+        display: none;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat1-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat2-grid {
+        display: none;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat2-grid img {
+          width: 400px;
+          height: 800px; }
+      .main .wrap-content .wrap-bat3-grid {
+        display: none;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat3-grid img {
+          width: 500px;
+          height: 750px; }
+      .main .wrap-content .wrap-bat4-grid {
+        display: none;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; }
+        .main .wrap-content .wrap-bat4-grid img {
+          width: 496px;
+          height: 691px; } }
+
+@media (max-width: 320px) {
+  .navigation {
+    width: 100%; }
+    .navigation .wrap-menu {
+      width: 300px;
+      margin: 0 auto; }
+      .navigation .wrap-menu .wrap-button {
+        display: grid;
+        grid-template-rows: 3;
+        grid-template-columns: 2; }
+        .navigation .wrap-menu .wrap-button .btn {
+          width: 150px;
+          height: 60px;
+          font-size: 17px;
+          background-color: #fff;
+          outline: 0 !important;
+          border: 0.1px solid #000;
+          padding: 0;
+          cursor: pointer; }
+        .navigation .wrap-menu .wrap-button .bat0 {
+          width: 300px;
+          background-color: #000;
+          color: #fff;
+          font-size: 20px;
+          grid-row: 1;
+          grid-column: 1 / 3; }
+        .navigation .wrap-menu .wrap-button .bat1 {
+          grid-row: 2;
+          grid-column: 1 / 2; }
+        .navigation .wrap-menu .wrap-button .bat2 {
+          grid-row: 2;
+          grid-column: 2 / 3; }
+        .navigation .wrap-menu .wrap-button .bat3 {
+          grid-row: 3;
+          grid-column: 1; }
+        .navigation .wrap-menu .wrap-button .bat4 {
+          grid-row: 3;
+          grid-column: 2; } }

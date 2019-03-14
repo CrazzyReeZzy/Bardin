@@ -30,51 +30,51 @@
         <section style="text-align: center;font-size: 25px;">
             <h1>Меню</h1>
         </section>
+        <section class = "navigation">
+            <div class="wrap-menu">
+                <div class="wrap-button">
+                    <button class="btn bat0">Меню кухни</button>
+                    <button class="btn bat1">Винная карта</button>
+                    <button class="btn bat2">Холодные закуски</button>
+                    <button class="btn bat3">Горячие блюда</button>
+                    <button class="btn bat4">Безалкогольные напитки</button>
+                </div>
+            </div>
+        </section>
     </header>
     <!-- Скрипт php создание адресов для вывода фотографий !-->
     <?php require_once "../php-script/menu-pix.php";?>
     <!-- Главная секция !-->
-    <!--
-    <main class = "main" id = "main">
-        <h1>Меню</h1>
-        <div class="wrap-main">
-            <div class="wrap-button">
-                <button class="btn bat0"></button>
-                <button class="btn bat1"></button>
-                <button class="btn bat2"></button>
-                <button class="btn bat3"></button>
-                <button class="btn bat4"></button>
+    <main class = "main" id= "main">
+        <div class="wrap-content">
+            <div class="wrap-bat0-grid">
+                <?php for ($i = 0; $i < count($files_kitchen); $i++) {?>
+                    <img src="<?=$dir_kitchen."/".$files_kitchen[$i]?>" alt="Меню страница 0">
+                <?php } ?>
             </div>
-            <div class="wrap-content">
-                <div class="wrap-bat0-grid">
-                    <?php for ($i = 0; $i < count($files_kitchen); $i++) {?>
-                        <img src="<?=$dir_kitchen."/".$files_kitchen[$i]?>" alt="Меню страница 0">
-                    <?php } ?>
-                </div>
-                <div class="wrap-bat1-grid">
-                    <?php for ($i = 0; $i < count($files_wine); $i++) {?>
+            <div class="wrap-bat1-grid">
+                <?php for ($i = 0; $i < count($files_wine); $i++) {?>
                     <img src="<?=$dir_wine."/".$files_wine[$i]?>" alt="Меню страница 1">
-                    <?php } ?>
-                </div>
-                <div class="wrap-bat2-grid">
-                    <?php for ($i = 0; $i < count($files_soft); $i++) {?>
+                <?php } ?>
+            </div>
+            <div class="wrap-bat2-grid">
+                <?php for ($i = 0; $i < count($files_soft); $i++) {?>
                     <img src="<?=$dir_soft."/".$files_soft[$i]?>" alt="Меню страница 2">
-                    <?php } ?>
-                </div>
-                <div class="wrap-bat3-grid">
-                    <?php for ($i = 0; $i < count($files_business); $i++) {?>
+                <?php } ?>
+            </div>
+            <div class="wrap-bat3-grid">
+                <?php for ($i = 0; $i < count($files_business); $i++) {?>
                     <img src="<?=$dir_business."/".$files_business[$i]?>" alt="Меню страница 3">
-                    <?php } ?>
-                </div>
-                <div class="wrap-bat4-grid">
-                    <?php for ($i = 0; $i < count($files_hookah); $i++) {?>
+                <?php } ?>
+            </div>
+            <div class="wrap-bat4-grid">
+                <?php for ($i = 0; $i < count($files_hookah); $i++) {?>
                     <img src="<?=$dir_hookah."/".$files_hookah[$i]?>" alt="Меню страница 3">
-                    <?php } ?>
-                </div>
+                <?php } ?>
+            </div>
             </div>
         </div>
     </main>
-    !-->
     <!-- Footer !-->
     <?php require_once "../php-script/footer.php";?>
      <!--script !-->
