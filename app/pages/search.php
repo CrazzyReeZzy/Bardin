@@ -29,13 +29,15 @@
         </div>
         <div class="control">
             <form class = "wrap-control" action="search.php" method="POST">
-                <div class = "btn-ru"><button class = "btn" name = "search-ru" formnovalidate >Открыть русский песенник</button></div>
-                <div class = "btn-en"><button class = "btn" name = "search-en" formnovalidate >Открыть иностранный песенник</button></div>
+                <!--<div class = "btn-ru"><button class = "btn" name = "search-ru" formnovalidate >Открыть русский песенник</button></div>
+                <div class = "btn-en"><button class = "btn" name = "search-en" formnovalidate >Открыть иностранный песенник</button></div>!-->
                 <div class = "field"><input class = "field-search" type="text" name = "search" id = "search" 
                     placeholder = "Какую песню вы ищите ?" required  value = "<?php
                     if (isset( $_POST['search-ru']) || isset( $_POST['search-en'] ) ){ echo ""; }
                     else {echo trim ($_POST['search'] , " \t\n\r\0\x0B" );} ?>"
                     maxlength="50" ></div>
+                <div class="btn-search"><button class="btn" type="submit" >Поиск</button></div>
+                
                 <div class="toggle toggle-name">
                     <label>
                         <input class = "toggle-input" type="checkbox" name="toggle-name" id="toggle-name">
@@ -50,7 +52,7 @@
                         Искать только по исполнителям
                     </label>
                 </div>
-                <div class="btn-search"><button class="btn" type="submit" >Поиск</button></div>
+                <!--<div class="btn-search"><button class="btn" type="submit" >Поиск</button></div>!-->
             </form>
         </div>
     </header>
@@ -146,7 +148,7 @@
                     }
                 }
                 else{
-                    //
+                    // Вывожу en запросы
                     while ($name =  mysqli_fetch_assoc($count)) {
                         echo '<tr>';
                         echo '<th>'. $name['nomer']  . '</th>';
@@ -154,7 +156,7 @@
                         echo '<th>'. $name['autor']  . '</th>';
                         echo '</tr>';
                     }
-                    //
+                    //Вывожу ru запросы
                     while ($name1 =  mysqli_fetch_assoc($count1)) {
                         //$name1['nomer'] = iconv("Windows-1251","UTF-8",$name1['nomer']);
                         //$name1['name'] = iconv("Windows-1251","UTF-8",$name1['name']);
