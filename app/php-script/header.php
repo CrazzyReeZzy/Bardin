@@ -7,7 +7,7 @@
                 <li><a  class="menu__item" href="/index.php">Главная</a></li>
                 <li><a  class="menu__item" href="/pages/menu.php">Меню</a></li>
 				<li><a  class="menu__item" href="/pages/search.php">Каталог&nbsp;песен</a></li>
-				<li><a  class="menu__item" href="/pages/menu-gallery.php">Фотогаллерея</a></li>
+				<li><a  class="menu__item" href="/pages/gallery.php">Фотогаллерея</a></li>
 				<li><a  class="menu__item" href="/pages/contacts.php">Контакты</a></li>
             </ul>
         </nav>
