@@ -19,15 +19,28 @@
   .gallery .wrap-gallery {
     width: 95%;
     margin: 0 auto; }
-    .gallery .wrap-gallery .slide-card .description {
-      display: flex;
-      justify-content: space-between;
-      color: #fff; }
-      .gallery .wrap-gallery .slide-card .description .name {
-        margin-right: 50px; }
-      .gallery .wrap-gallery .slide-card .description .date {
-        margin-right: auto; }
-      .gallery .wrap-gallery .slide-card .description a {
-        margin-top: 10px;
+    .gallery .wrap-gallery .slide-card {
+      width: 100%;
+      padding-top: 50px; }
+      .gallery .wrap-gallery .slide-card .description {
+        display: flex;
+        justify-content: space-between;
         color: #fff;
-        text-decoration: none; }
+        font-size: 18px; }
+        .gallery .wrap-gallery .slide-card .description .name {
+          margin-right: 50px; }
+        .gallery .wrap-gallery .slide-card .description .date {
+          margin-right: auto; }
+        .gallery .wrap-gallery .slide-card .description a {
+          margin-top: 10px;
+          color: #fff;
+          text-decoration: none; }
+      .gallery .wrap-gallery .slide-card .slide {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 315px; }
+        .gallery .wrap-gallery .slide-card .slide div {
+          margin-right: 10px; }
+          .gallery .wrap-gallery .slide-card .slide div img {
+            width: 100%; }

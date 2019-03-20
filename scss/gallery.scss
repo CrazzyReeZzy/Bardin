@@ -23,10 +23,13 @@
         width: 95%;
         margin: 0 auto;
         .slide-card{
+            width: 100%;
+            padding-top: 50px;
             .description{
                 display: flex;
                 justify-content: space-between;
                 color: #fff;
+                font-size: 18px;
                 .name {
                     margin-right: 50px;
                 }
@@ -37,6 +40,18 @@
                     margin-top: 10px;
                     color: #fff;
                     text-decoration: none;
+                }
+            }
+            .slide{
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                height: 315px;
+                div{
+                    margin-right: 10px;
+                    img {
+                        width: 100%;
+                    }
                 }
             }
         }

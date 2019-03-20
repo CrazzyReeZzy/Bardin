@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="../css/offer.css">
     <link rel="stylesheet" href="../css/gallery.css">
     <link rel="stylesheet" href="../css/gallery-media.css">
+    <link rel="stylesheet" href="../libs/slick/slick.css">
+    <link rel="stylesheet" href="../libs/slick/slick-theme.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../libs/magnific-popup/magnific-popup.css">
 </head>
@@ -29,18 +31,22 @@
             <p>Посмотрите наши фотографии</p>
         </div>
     </header>
+    <?php require_once "../php-script/gallery-pix.php";?>
     <section class = "gallery">
         <div class="wrap-gallery">
             <div class="slide-card">
                 <div class = "description">
-                    <p class = "name">23 февраля</p><!-- name !-->
+                    <p class = "name">23 февраля</p><!-- rus_name !-->
                     <p class = "date">10.10.2018</p><!--date !-->
-                    <a href="#">Открыть альбом</a> <!-- link !-->
+                    <a href="album.php?name=8marta">Открыть альбом</a> <!-- name !-->
                 </div>
                 <div class="slide">
-                    <img src="../" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <div><img src="../img/gallery/March 8/01.jpg" alt=""></div> <!-- link -->
+                    <div><img src="../img/gallery/March 8/02.jpg" alt=""></div>
+                    <div><img src="../img/gallery/March 8/03.jpg" alt=""></div>
+                    <div><img src="../img/gallery/March 8/04.jpg" alt=""></div>
+                    <div><img src="../img/gallery/March 8/05.jpg" alt=""></div>
+                    <div><img src="../img/gallery/March 8/06.jpg" alt=""></div>
                 </div>
             </div>
         </div>
@@ -51,4 +57,5 @@
     <!--script !-->
     <script src="../libs/jquery/jquery-1.11.2.min.js"></script>
     <script src="../libs/slick/slick.min.js"></script>
+    <script src="../js/slider-gallery.js"></script>
 </html>
