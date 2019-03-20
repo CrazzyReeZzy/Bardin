@@ -31,17 +31,20 @@
             <p>Посмотрите наши фотографии</p>
         </div>
     </header>
-    <?php require_once "../php-script/gallery-pix.php";?>
+    <!-- Подключусь к базе данных !-->
+    <?php include "../php-script/connection.php"; ?>
     <section class = "gallery">
         <div class="wrap-gallery">
+            <?php require_once "../php-script/gallery-pix.php";?>
+            <!--
             <div class="slide-card">
                 <div class = "description">
-                    <p class = "name">23 февраля</p><!-- rus_name !-->
-                    <p class = "date">10.10.2018</p><!--date !-->
-                    <a href="album.php?name=8marta">Открыть альбом</a> <!-- name !-->
+                    <p class = "name">23 февраля</p>
+                    <p class = "date">10.10.2018</p>
+                    <a href="album.php?name=8marta">Открыть альбом</a>
                 </div>
                 <div class="slide">
-                    <div><img src="../img/gallery/March 8/01.jpg" alt=""></div> <!-- link -->
+                    <div><img src="../img/gallery/March 8/01.jpg" alt=""></div>
                     <div><img src="../img/gallery/March 8/02.jpg" alt=""></div>
                     <div><img src="../img/gallery/March 8/03.jpg" alt=""></div>
                     <div><img src="../img/gallery/March 8/04.jpg" alt=""></div>
@@ -49,6 +52,7 @@
                     <div><img src="../img/gallery/March 8/06.jpg" alt=""></div>
                 </div>
             </div>
+            !-->
         </div>
     </section>
     <!-- Footer !-->
