@@ -9,7 +9,6 @@
 				<li><a  class="menu__item" href="/pages/search.php">Каталог&nbsp;песен</a></li>
 				<li><a  class="menu__item" href="/pages/menu-gallery.php">Фотогаллерея</a></li>
 				<li><a  class="menu__item" href="/pages/contacts.php">Контакты</a></li>
-				<li><a  class="menu__item" href="/pages/menu-gallery.php">Галерея</a></li>
             </ul>
         </nav>
     </div>
