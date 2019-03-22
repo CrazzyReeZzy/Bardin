@@ -24,7 +24,7 @@ while ($list_name =  mysqli_fetch_assoc($list)){?>
                 $files_gallery = excess($files_gallery); // Удаляем лишние файлы
             ?>
             <?php for ($i = 0; $i < count($files_gallery); $i++) {?>
-                <div><img src="<?= $dir_gallery."/".$files_gallery[$i]?>" alt="Фотографии"></div> <!-- link -->
+                <div><a href="<?= $dir_gallery."/".$files_gallery[$i]?>"><img src="<?= $dir_gallery."/".$files_gallery[$i]?>" alt="Фотографии"></a></div> <!-- link -->
             <?php } ?>
         </div>
     </div>

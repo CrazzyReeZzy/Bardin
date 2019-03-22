@@ -15,44 +15,48 @@
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/offer.css">
-    <link rel="stylesheet" href="../css/gallery.css">
-    <link rel="stylesheet" href="../css/gallery-media.css">
+    <link rel="stylesheet" href="../css/album.css">
+    <link rel="stylesheet" href="../css/album-media.css">
     <link rel="stylesheet" href="../libs/slick/slick.css">
     <link rel="stylesheet" href="../libs/slick/slick-theme.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../libs/magnific-popup/magnific-popup.css">
 </head>
 <body>
+    <!-- Подключусь к базе данных !-->
+    <?php include "../php-script/connection.php"; ?>
+    <?php 
+        $currentname = $_GET['name'];
+        $listname = mysqli_query($connection, "SELECT * FROM `gallery` WHERE `name` = '$currentname' ");
+        $titel = mysqli_query($connection, "SELECT * FROM `gallery` WHERE `name` = '$currentname' ");
+    ?>
     <header class = "header" id = "header">
         <?php require_once "../php-script/header.php";?>
         <?php require_once "../php-script/offer.php";?>
         <div class="utp">
-            <h1>Фотогалерея</h1>
-            <p>Посмотрите наши фотографии</p>
+            <h1>Альбом</h1>
+            <p><?php while ( $tit =  mysqli_fetch_assoc($titel) ) { echo $tit['rus_name'];} ?></p>
         </div>
     </header>
-    <!-- Подключусь к базе данных !-->
-    <?php include "../php-script/connection.php"; ?>
-    <section class = "gallery">
-        <div class="wrap-gallery">
-            <?php require_once "../php-script/gallery-pix.php";?>
-            <!--
-            <div class="slide-card">
-                <div class = "description">
-                    <p class = "name">23 февраля</p>
-                    <p class = "date">10.10.2018</p>
-                    <a href="album.php?name=8marta">Открыть альбом</a>
+    <section class = "album">
+        <div class="wrap-album">
+            <?php
+                function excess($files) {
+                    $result = array();
+                    for ($i = 0; $i < count($files); $i++) {
+                        if ($files[$i] != "." && $files[$i] != "..") $result[] = $files[$i];
+                    }
+                    return $result;
+                }
+            while ( $link =  mysqli_fetch_assoc($listname) ) { $dir = "../img/gallery/" . $link['link'] . "/";}
+            $files = scandir($dir); // Получаем список файлов из этой директории
+            $files = excess($files); // Удаляем лишние файлы
+            ?>
+            <?php for ($i = 0; $i < count($files); $i++) { ?>
+                <div class="card">
+                    <a class = "item" href = "<?=$dir."/".$files[$i]?>"><img src="<?=$dir.$files[$i]?>" alt="Фотография"/></a>
                 </div>
-                <div class="slide">
-                    <div><img src="../img/gallery/March 8/01.jpg" alt=""></div>
-                    <div><img src="../img/gallery/March 8/02.jpg" alt=""></div>
-                    <div><img src="../img/gallery/March 8/03.jpg" alt=""></div>
-                    <div><img src="../img/gallery/March 8/04.jpg" alt=""></div>
-                    <div><img src="../img/gallery/March 8/05.jpg" alt=""></div>
-                    <div><img src="../img/gallery/March 8/06.jpg" alt=""></div>
-                </div>
-            </div>
-            !-->
+            <?php } ?>
         </div>
     </section>
     <!-- Footer !-->
@@ -64,7 +68,7 @@
     <script src="../libs/slick/slick.min.js"></script>
     <script src="../js/slider-gallery.js"></script>
     <script>
-            $('.slide').magnificPopup({
+            $('.card').magnificPopup({
             delegate: 'a',
             type: 'image',
             tLoading: 'Загрузка изображения #%curr%...',
