@@ -25,6 +25,8 @@
         .slide-card{
             width: 100%;
             padding-top: 50px;
+            height: 340px;
+            overflow: hidden;
             .description{
                 display: flex;
                 justify-content: space-between;
@@ -46,13 +48,12 @@
                 display: flex;
                 justify-content: center;
                 align-content: center;
-                height: 280px;
+                //height: 280px;
                 div{
                     margin-right: 10px;
                     img {
                         width: 100%;
                         height: 100%;
-                        overflow: hidden;
                     }
                 }
             }

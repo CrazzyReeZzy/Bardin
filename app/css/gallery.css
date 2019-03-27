@@ -21,7 +21,9 @@
     margin: 0 auto; }
     .gallery .wrap-gallery .slide-card {
       width: 100%;
-      padding-top: 50px; }
+      padding-top: 50px;
+      height: 340px;
+      overflow: hidden; }
       .gallery .wrap-gallery .slide-card .description {
         display: flex;
         justify-content: space-between;
@@ -38,11 +40,9 @@
       .gallery .wrap-gallery .slide-card .slide {
         display: flex;
         justify-content: center;
-        align-content: center;
-        height: 280px; }
+        align-content: center; }
         .gallery .wrap-gallery .slide-card .slide div {
           margin-right: 10px; }
           .gallery .wrap-gallery .slide-card .slide div img {
             width: 100%;
-            height: 100%;
-            overflow: hidden; }
+            height: 100%; }
