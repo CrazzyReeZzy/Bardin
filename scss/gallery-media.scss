@@ -8,7 +8,7 @@
             .slide-card{
                 width: 100%;
                 padding-top: 50px;
-                height: 340px;
+                height: 310px;
                 overflow: hidden;
                 .description{
                     display: flex;
@@ -38,6 +38,37 @@
                             width: 100%;
                             height: 100%;
                         }
+                    }
+                }
+            }
+            .foto-card{
+                width: 100%;
+                padding-top: 50px;
+                display: none;
+                .description{
+                    display: flex;
+                    justify-content: space-between;
+                    color: #fff;
+                    .name{
+                        margin-right: 10px;
+                    }
+                    .date{
+                        margin-right: auto;
+                    }
+                    a{
+                        margin-top: 10px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+                .foto{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 100%;
+                        height: 100%;
                     }
                 }
             }
@@ -54,7 +85,7 @@
             .slide-card{
                 width: 100%;
                 padding-top: 50px;
-                height: 340px;
+                height: 275px;
                 overflow: hidden;
                 .description{
                     display: flex;
@@ -84,6 +115,37 @@
                             width: 100%;
                             height: 100%;
                         }
+                    }
+                }
+            }
+            .foto-card{
+                width: 100%;
+                padding-top: 50px;
+                display: none;
+                .description{
+                    display: flex;
+                    justify-content: space-between;
+                    color: #fff;
+                    .name{
+                        margin-right: 10px;
+                    }
+                    .date{
+                        margin-right: auto;
+                    }
+                    a{
+                        margin-top: 10px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+                .foto{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 100%;
+                        height: 100%;
                     }
                 }
             }
@@ -100,7 +162,7 @@
             .slide-card{
                 width: 100%;
                 padding-top: 50px;
-                height: 300px;
+                height: 240px;
                 overflow: hidden;
                 .description{
                     display: flex;
@@ -130,6 +192,37 @@
                             width: 100%;
                             height: 100%;
                         }
+                    }
+                }
+            }
+            .foto-card{
+                width: 100%;
+                padding-top: 50px;
+                display: none;
+                .description{
+                    display: flex;
+                    justify-content: space-between;
+                    color: #fff;
+                    .name{
+                        margin-right: 10px;
+                    }
+                    .date{
+                        margin-right: auto;
+                    }
+                    a{
+                        margin-top: 10px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+                .foto{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 100%;
+                        height: 100%;
                     }
                 }
             }
@@ -146,7 +239,7 @@
             .slide-card{
                 width: 100%;
                 padding-top: 50px;
-                height: 300px;
+                height: 210px;
                 overflow: hidden;
                 .description{
                     display: flex;
@@ -179,6 +272,37 @@
                     }
                 }
             }
+            .foto-card{
+                width: 100%;
+                padding-top: 50px;
+                display: none;
+                .description{
+                    display: flex;
+                    justify-content: space-between;
+                    color: #fff;
+                    .name{
+                        margin-right: 10px;
+                    }
+                    .date{
+                        margin-right: auto;
+                    }
+                    a{
+                        margin-top: 10px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+                .foto{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
         }
     }
 }
@@ -191,9 +315,10 @@
             margin: 0 auto;
             .slide-card{
                 width: 100%;
-                padding-top: 50px;
-                height: 280px;
+                padding-top: 10px;
+                height: 100px;
                 overflow: hidden;
+                display: none;
                 .description{
                     display: flex;
                     justify-content: space-between;
@@ -215,13 +340,42 @@
                     display: flex;
                     justify-content: center;
                     align-content: center;
-                    //height: 280px;
                     div{
                         margin-right: 10px;
                         img {
                             width: 100%;
                             height: 100%;
                         }
+                    }
+                }
+            }
+            .foto-card{
+                width: 100%;
+                padding-top: 50px;
+                .description{
+                    display: flex;
+                    justify-content: space-between;
+                    color: #fff;
+                    .name{
+                        margin-right: 10px;
+                    }
+                    .date{
+                        margin-right: auto;
+                    }
+                    a{
+                        margin-top: 10px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+                .foto{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 100%;
+                        height: 100%;
                     }
                 }
             }
@@ -272,6 +426,36 @@
                     }
                 }
             }
+            .foto-card{
+                width: 100%;
+                padding-top: 50px;
+                .description{
+                    display: flex;
+                    justify-content: space-between;
+                    color: #fff;
+                    .name{
+                        margin-right: 10px;
+                    }
+                    .date{
+                        margin-right: auto;
+                    }
+                    a{
+                        margin-top: 10px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+                .foto{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
         }
     }
 }
@@ -316,6 +500,36 @@
                             width: 100%;
                             height: 100%;
                         }
+                    }
+                }
+            }
+            .foto-card{
+                width: 100%;
+                padding-top: 50px;
+                .description{
+                    display: flex;
+                    justify-content: space-between;
+                    color: #fff;
+                    .name{
+                        margin-right: 10px;
+                    }
+                    .date{
+                        margin-right: auto;
+                    }
+                    a{
+                        margin-top: 10px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+                .foto{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 100%;
+                        height: 100%;
                     }
                 }
             }

@@ -1,6 +1,6 @@
 <?php
-$list = mysqli_query($connection, "SELECT * FROM `gallery`");
-function excess($files_gallery) {
+$listt = mysqli_query($connection, "SELECT * FROM `gallery`");
+/*function excess($files_gallery) {
     $result = array();
     for ($i = 0; $i < count($files_gallery); $i++) {
         if ($files_gallery[$i] != "." && $files_gallery[$i] != "..") {
@@ -8,25 +8,23 @@ function excess($files_gallery) {
         }
     }
     return $result;
-}
-while ($list_name =  mysqli_fetch_assoc($list)){?>
-    <div class="slide-card">
+}*/
+while ($list_name =  mysqli_fetch_assoc($listt)){?>
+    <div class="foto-card">
         <div class = "description">
             <p class = "name"><?php echo $list_name ['rus_name'] ?></p><!-- rus_name !-->
             <p class = "date"><?php echo $list_name ['date'] ?></p><!--date !-->
             <a href="album.php?name=<?php echo $list_name ['name'] ?>">Открыть альбом</a> <!-- name !-->
         </div>
-        <div class="slide">
+        <div class="foto">
             <!-- Cкрипт для нахождения изображений !-->
             <?php 
                 $dir_gallery = "../img/gallery/" . $list_name['link'] . "/" ; // Путь к директории, в которой лежат изображения
                 $files_gallery = scandir($dir_gallery); // Получаем список файлов из этой директории
                 $files_gallery = excess($files_gallery); // Удаляем лишние файлы
             ?>
-            <?php for ($i = 0; $i < count($files_gallery); $i++) {?>
-                <div><a href="<?= $dir_gallery."/".$files_gallery[$i]?>"><img src="<?= $dir_gallery."/".$files_gallery[$i]?>" alt="Фотографии"></a></div> <!-- link -->
-            <?php } ?>
+            <img src="<?= $dir_gallery."/".$files_gallery[1]?>" alt="Фотография">
         </div>
     </div>
-<?php }  ?>
+<?php } ?>
 <?php mysqli_close($connection);  ?>

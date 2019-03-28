@@ -55,8 +55,20 @@
             !-->
 
             <!-- Для мобильных устройств !-->
-            
-        </div>
+            <?php include "../php-script/connection.php"; ?>
+            <?php require_once "../php-script/gallery-pix-mobi.php";?>
+            <!--
+            <div class="foto-card">
+                <div class = "description">
+                    <p class = "name">23 февраля</p>
+                    <p class = "date">10.10.2018</p>
+                    <a href="album.php?name=Dishes">Открыть альбом</a>
+                </div>
+                <div class="foto">
+                    <img src="../img/gallery/March 8/01.jpg" alt="">
+                </div>
+            </div>
+        </div>!-->
     </section>
     <!-- Footer !-->
     <?php require_once "../php-script/footer.php";?>   
