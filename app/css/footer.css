@@ -1,15 +1,81 @@
 .footer {
   background-color: #000; }
   .footer .wrap-footer {
-    width: 100%; }
-    .footer .wrap-footer .wrap-footer__line {
-      background: url(../img/main/footer/line-5.svg) no-repeat center center/cover;
-      width: 100%;
-      height: 50px;
-      z-index: 10; }
-    .footer .wrap-footer .contact-flex {
-      color: #fff;
-      width: 80%;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .footer .wrap-footer .contact {
+      width: 50%;
       display: flex;
-      margin: 0 auto;
-      justify-content: space-between; }
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center; }
+      .footer .wrap-footer .contact .adress {
+        color: #fff; }
+      .footer .wrap-footer .contact .link {
+        margin-left: 35px; }
+        .footer .wrap-footer .contact .link a {
+          color: #fff;
+          text-decoration: none;
+          margin-left: 15px; }
+          .footer .wrap-footer .contact .link a:hover {
+            border-bottom: 2px solid #fff; }
+    .footer .wrap-footer .social {
+      display: flex;
+      flex-direction: row; }
+      .footer .wrap-footer .social .social__vk {
+        display: block;
+        background: url(../img/icon/vk-brands.svg) no-repeat center center/contain;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px; }
+      .footer .wrap-footer .social .social__instagram {
+        display: block;
+        background: url(../img/icon/instagram-brands.svg) no-repeat center right/contain;
+        width: 25px;
+        height: 25px; }
+
+/*
+.wrap-footer{
+    width: 100%;
+    .contact-flex{
+        color: #fff;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .link{
+            margin-top: 15px;
+            display: flex;
+            flex-direction: row;
+            margin-right: auto;
+            a{
+                color: #fff;
+                font-size: 15px;
+                text-decoration: none;
+                margin-left: 10px;
+            }
+        }
+        .social{
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+            margin-left: 15px;
+            .social__vk{
+                display: block;
+                background: url(../img/icon/vk-brands.svg) no-repeat center center / contain;
+                width: 25px;height: 25px;
+                margin-right: 5px;
+            }
+            .social__instagram{
+                display: block;
+                background: url(../img/icon/instagram-brands.svg) no-repeat center right / contain;
+                width: 25px;height: 25px;
+            }
+        }
+    }
+}
+*/
