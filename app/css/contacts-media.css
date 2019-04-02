@@ -1,0 +1,37 @@
+@media (max-width: 480px) {
+  .map {
+    margin-top: 100px;
+    position: relative;
+    height: 400px; }
+    .map .contact {
+      display: none;
+      width: 300px;
+      height: 250px;
+      background-color: #000;
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      z-index: 5;
+      color: #fff; }
+      .map .contact p {
+        padding: 25px;
+        font-size: 18px; } }
+
+@media (max-width: 320px) {
+  .map {
+    margin-top: 100px;
+    position: relative;
+    height: 400px; }
+    .map .contact {
+      display: none;
+      width: 300px;
+      height: 250px;
+      background-color: #000;
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      z-index: 5;
+      color: #fff; }
+      .map .contact p {
+        padding: 25px;
+        font-size: 18px; } }
